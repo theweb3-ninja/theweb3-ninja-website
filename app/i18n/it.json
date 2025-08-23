@@ -368,21 +368,6 @@
       "email": "info@theweb3.ninja"
     }
   },
-  "bonusResources": {
-    "limitedTime": "Disponibili per tempo limitato!",
-    "title": "2 Risorse Gratuite per gli Organizzatori di Eventi",
-    "subtitle": "Ottieni strumenti professionali gratuiti per organizzare eventi perfetti",
-    "guide": {
-      "title": "Guida Completa all'Organizzazione Eventi",
-      "description": "In questo PDF troverai tutte le strategie sull'organizzazione di eventi. Scopri anche dei trucchi per risparmiare fino al 40%!"
-    },
-    "spreadsheet": {
-      "title": "Foglio di Calcolo Gestionale",
-      "description": "Uno strumento Excel professionale per confrontare preventivi, gestire budget e tenere traccia di tutti i fornitori. Perfetto per analisi comparative e controllo costi."
-    },
-    "free": "Gratuito",
-    "downloadButton": "Scarica Risorse Gratuite"
-  },
   "header": {
     "logoTitle": "The Web3 Ninja - Piattaforma di Gestione Eventi",
     "logoAlt": "Logo The Web3 Ninja - Piattaforma di Gestione Eventi"

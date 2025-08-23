@@ -310,21 +310,6 @@
       "email": "info@theweb3.ninja"
     }
   },
-  "bonusResources": {
-    "limitedTime": "Disponível por tempo limitado!",
-    "title": "2 Recursos Gratuitos para Organizadores de Eventos",
-    "subtitle": "Obtenha ferramentas profissionais gratuitas para organizar eventos perfeitos",
-    "guide": {
-      "title": "Guia Completo de Organização de Eventos",
-      "description": "Neste PDF você encontrará todas as estratégias para organização de eventos. Descubra truques para economizar até 40%!"
-    },
-    "spreadsheet": {
-      "title": "Planilha de Gestão",
-      "description": "Uma ferramenta Excel profissional para comparar orçamentos, gerenciar budgets e acompanhar todos os fornecedores. Perfeita para análise comparativa e controle de custos."
-    },
-    "free": "Grátis",
-    "downloadButton": "Baixar Recursos Gratuitos"
-  },
   "vendors": {
     "title": "Encontre os Melhores Fornecedores",
     "subtitle": "Descubra fornecedores verificados para o seu evento perfeito",

@@ -41,7 +41,7 @@ export const DOMAIN_CONFIG = [
   },
 ];
 
-export const FEATURES = env.VITE_FEATURES || 'landing,bonusResources';
+export const FEATURES = env.VITE_FEATURES || 'landing';
 
 export const MEASUREMENT_ID = env.VITE_MEASUREMENT_ID || '';
 

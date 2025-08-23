@@ -332,21 +332,6 @@
       "email": "info@theweb3.ninja"
     }
   },
-  "bonusResources": {
-    "limitedTime": "Tillgängligt under begränsad tid!",
-    "title": "2 Gratis Resurser för Eventarrangörer",
-    "subtitle": "Få professionella gratis verktyg för att organisera perfekta evenemang",
-    "guide": {
-      "title": "Komplett Guide för Evenemangsorganisation",
-      "description": "I denna PDF hittar du alla strategier för evenemangsorganisation. Upptäck tips för att spara upp till 40%!"
-    },
-    "spreadsheet": {
-      "title": "Hantera Kalkylblad",
-      "description": "Ett professionellt Excel-verktyg för att jämföra offerter, hantera budgetar och hålla koll på alla leverantörer. Perfekt för jämförande analyser och kostnadskontroll."
-    },
-    "free": "Gratis",
-    "downloadButton": "Ladda ner Gratis Resurser"
-  },
   "vendors": {
     "title": "Hitta de Bästa Leverantörerna",
     "subtitle": "Upptäck verifierade leverantörer för ditt perfekta evenemang",

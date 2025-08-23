@@ -309,20 +309,5 @@
       "content": "W celu uzyskania informacji dotyczących przetwarzania danych za pośrednictwem plików cookie możesz skontaktować się z:",
       "email": "info@theweb3.ninja"
     }
-  },
-  "bonusResources": {
-    "limitedTime": "Dostępne przez ograniczony czas!",
-    "title": "2 Darmowe Zasoby dla Organizatorów Wydarzeń",
-    "subtitle": "Zdobądź profesjonalne darmowe narzędzia do organizacji doskonałych wydarzeń",
-    "guide": {
-      "title": "Kompletny Przewodnik Organizacji Wydarzeń",
-      "description": "W tym PDF znajdziesz wszystkie strategie organizacji wydarzeń. Odkryj sztuczki, aby zaoszczędzić do 40%!"
-    },
-    "spreadsheet": {
-      "title": "Arkusz Kalkulacyjny do Zarządzania",
-      "description": "Profesjonalne narzędzie Excel do porównywania ofert, zarządzania budżetami i śledzenia wszystkich dostawców. Idealne do analizy porównawczej i kontroli kosztów."
-    },
-    "free": "Darmowy",
-    "downloadButton": "Pobierz Darmowe Zasoby"
   }
 }
