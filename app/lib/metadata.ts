@@ -1,16 +1,7 @@
 import { TFunction } from 'i18next';
 import { MetaTagConfig, PageMetadata, SeoMetaOptions } from 'shared';
-import {
-  companyInfo,
-  contactInfo,
-  DOMAIN_ITALY,
-  DOMAIN_SPAIN,
-  supportedLanguages,
-  URL_GLOBAL,
-  URL_ITALY,
-  URL_SPAIN,
-} from '../config';
-import { getDefaultLanguage, getDefaultLanguageByDomain, getLanguageConfig } from '../services';
+import { companyInfo, contactInfo, supportedLanguages, URL_GLOBAL } from '../config';
+import { getDefaultLanguage, getLanguageConfig } from '../services';
 
 /**
  * Get the current language metadata from i18n translations
@@ -102,38 +93,21 @@ const getPageMetadata = (
 
 /**
  * Get meta tag configuration for a specific domain
- * @param hostname - The hostname to get meta tags for
+ * @param pathname - The pathname to get meta tags for
  * @returns MetaTagConfig object with appropriate meta tag settings
  */
-const getMetaCanonical = (hostname: string, language?: string, pathname?: string): MetaTagConfig => {
+const getMetaCanonical = (pathname?: string): MetaTagConfig => {
   // Default canonical URL
-  let canonical = `${URL_GLOBAL}${language === getDefaultLanguageByDomain(hostname) ? pathname : `${pathname?.substring(3)}`}`;
-
-  // Common alternate links for all domains
-  let commonAlternates = [
-    { href: `${URL_GLOBAL}${pathname}`, hreflang: 'en-gb' },
-    { href: `${URL_ITALY}${pathname}`, hreflang: 'it-it' },
-    { href: `${URL_SPAIN}${pathname}`, hreflang: 'es-es' },
-    { href: `${URL_GLOBAL}${pathname}`, hreflang: 'x-default' },
-  ];
+  const canonical = `${URL_GLOBAL}${pathname?.substring(3)}`;
 
   const otherAlternates = supportedLanguages.map(lang => ({
     href: `${URL_GLOBAL}/${lang}${pathname?.substring(3)}`,
     hreflang: `${lang}-${lang === 'en' ? 'gb' : lang}`,
   }));
 
-  // Check for specific domains
-  if (hostname.includes(DOMAIN_ITALY) || hostname === DOMAIN_ITALY) {
-    canonical = `${URL_ITALY}${language === getDefaultLanguageByDomain(hostname) ? pathname : `${pathname?.substring(3)}`}`;
-    commonAlternates = [...commonAlternates, { href: `${URL_ITALY}${pathname}`, hreflang: 'it-it' }];
-  } else if (hostname.includes(DOMAIN_SPAIN) || hostname === DOMAIN_SPAIN) {
-    canonical = `${URL_SPAIN}${language === getDefaultLanguageByDomain(hostname) ? pathname : `${pathname?.substring(3)}`}`;
-    commonAlternates = [...commonAlternates, { href: `${URL_SPAIN}${pathname}`, hreflang: 'es-es' }];
-  }
-
   return {
     canonical,
-    alternates: [...commonAlternates, ...otherAlternates],
+    alternates: otherAlternates,
   };
 };
 
@@ -145,9 +119,9 @@ export const generateMetaTags = (
   options: SeoMetaOptions,
   pathname?: string
 ) => {
-  const { title, description, image, keywords, language, noIndex, hostname } = options;
-  const { canonical, alternates } = getMetaCanonical(hostname, language, pathname);
-  const currentLanguage = language || getDefaultLanguageByDomain(options.hostname) || getDefaultLanguage();
+  const { title, description, image, keywords, language, noIndex } = options;
+  const { canonical, alternates } = getMetaCanonical(pathname);
+  const currentLanguage = language || getDefaultLanguage();
   const currentLangConfig = getLanguageConfig(currentLanguage);
 
   // Get localized metadata for the current language
