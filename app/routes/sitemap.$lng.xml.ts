@@ -1,6 +1,6 @@
 import { generateRemixSitemap } from '@forge42/seo-tools/remix/sitemap';
 import { LoaderFunctionArgs, type ServerBuild } from 'react-router';
-import { getDefaultLanguageByDomain } from '../services';
+import { getDefaultLanguage } from '../services';
 
 const replacePath = (lng?: string, path?: string, defaultLng?: string): string => {
   if (!path) return path || '';
@@ -27,13 +27,12 @@ const rewriteRoutes = (routes: ServerBuild['routes'], lng?: string, defaultLng?:
 export const loader = async ({ request, params }: LoaderFunctionArgs) => {
   const serverBuild = await import('virtual:react-router/server-build');
   const { routes } = serverBuild;
-  const { hostname, origin } = new URL(request.url);
+  const { origin } = new URL(request.url);
   const lng = params.lng;
-  const defaultLng = getDefaultLanguageByDomain(hostname);
   let routeBaseEntries: { id: string | undefined; path: string; lng: string | undefined }[] = [];
 
-  if (lng === defaultLng) {
-    routeBaseEntries = rewriteRoutes(routes, lng, defaultLng);
+  if (lng === getDefaultLanguage()) {
+    routeBaseEntries = rewriteRoutes(routes, lng, getDefaultLanguage());
   }
 
   const routeEntries = rewriteRoutes(routes, lng);
