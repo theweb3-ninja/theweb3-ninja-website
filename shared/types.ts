@@ -94,7 +94,7 @@ export interface SocialLinks {
 }
 
 export interface RootLoaderData {
-  detectedLanguage: string;
+  detectedLanguage?: string;
   hostname: string;
   pathname?: string;
 }

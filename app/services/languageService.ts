@@ -7,20 +7,13 @@ import { LangKey, LanguageConfig } from '../types';
 export let i18nInstance: i18n;
 
 /**
- * Determine the language to use based on path and supported languages
- */
-const resolveLanguage = (pathLang?: string) => {
-  return pathLang && supportedLanguages.includes(pathLang) ? pathLang : defaultLanguage;
-};
-
-/**
  * Get or create the singleton i18n instance
  * This is the ONLY way to access the i18n instance throughout the app
  */
 const createI18nInstance = (language?: string): i18n => {
   // For SSR hydration consistency, we need to support the requested language
   // but limit resources to prevent server-side errors
-  const requestedLanguage = language || domainDefaultLanguage || getDefaultLanguage();
+  const requestedLanguage = language || defaultLanguage;
   const serverLanguages: LangKey[] = ['en']; // Always include English fallback
 
   // Add the requested language for SSR if it's different from English
@@ -44,7 +37,7 @@ const createI18nInstance = (language?: string): i18n => {
   const instance = createInstance({
     ...commonSettings,
     lng: requestedLanguage, // Use the requested language for hydration consistency
-    fallbackLng: domainDefaultLanguage,
+    fallbackLng: defaultLanguage,
     preload: isServer ? serverLanguages : supportedLanguages,
     supportedLngs: isServer ? serverLanguages : supportedLanguages,
     // Critical: initialize synchronously to prevent race conditions
@@ -81,7 +74,7 @@ const createI18nInstance = (language?: string): i18n => {
  * Get the browser language (without region code)
  * @returns Browser language code
  */
-const getLanguageFromAcceptLanguage = (request?: Request) => {
+export const getLanguageFromAcceptLanguage = (request?: Request) => {
   let language = undefined;
 
   // Client-side: navigator.languages is supported
@@ -188,10 +181,10 @@ export const getNextLanguagePath = (currentPath: string, languageCode: string): 
   if (!currentLang && !currentPath.startsWith(`/${languageCode}`)) {
     if (currentPath === '/' || currentPath === '') {
       // If we're on the root path, just add the language code
-      return languageCode === domainDefaultLanguage ? '/' : `/${languageCode}`;
+      return languageCode === defaultLanguage ? '/' : `/${languageCode}`;
     } else {
       // For paths like /privacy-policy, add the language prefix
-      const prefix = languageCode === domainDefaultLanguage ? '/' : `/${languageCode}`;
+      const prefix = languageCode === defaultLanguage ? '/' : `/${languageCode}`;
 
       return `${prefix}${currentPath}`;
     }
@@ -201,55 +194,16 @@ export const getNextLanguagePath = (currentPath: string, languageCode: string): 
 
     // Handle root path case
     if (!pathWithoutLang || pathWithoutLang === '/') {
-      return languageCode === domainDefaultLanguage ? '/' : `/${languageCode}`;
+      return languageCode === defaultLanguage ? '/' : `/${languageCode}`;
     }
 
     // Normalize the path to ensure no double slashes
     const normalizedPath = pathWithoutLang.startsWith('/') ? pathWithoutLang : `/${pathWithoutLang}`;
 
-    return languageCode === domainDefaultLanguage ? normalizedPath : `/${languageCode}${normalizedPath}`;
+    return languageCode === defaultLanguage ? normalizedPath : `/${languageCode}${normalizedPath}`;
   }
 
   return currentPath;
-};
-
-/**
- * Get the default language based on browser or domain
- */
-export const getDefaultLanguage = (request?: Request) => {
-  // Start with browser language as the lowest priority default
-  let language = undefined;
-
-  // Client-side: location.hostname is supported
-  if (typeof location !== 'undefined' && typeof location.hostname !== 'undefined') {
-    // PRIORITY 1: Path-based detection - highest priority per specs
-    const pathLang = extractLanguageFromPath(location.pathname);
-
-    if (pathLang) {
-      language = pathLang;
-      console.log(`🌍 Client getDefaultLanguage: Path language detected '/${pathLang}', using ${pathLang}`);
-    }
-  }
-  // Server-side: Use passed request or fallback to globalThis.request
-  else if (request) {
-    const serverRequest = request;
-    const url = new URL(serverRequest.url);
-    const pathLang = extractLanguageFromPath(url.pathname);
-
-    // PRIORITY 1: Path-based detection
-    if (pathLang && pathLang.length === 2 && supportedLanguages.includes(pathLang)) {
-      language = pathLang;
-      console.log(`🌍 Server getDefaultLanguage: Path language detected '/${pathLang}', using ${pathLang}`);
-    }
-  }
-
-  // PRIORITY 3: Accept-Language header detection
-  if (!language) {
-    language = getLanguageFromAcceptLanguage(request);
-  }
-
-  // PRIORITY 4: Default app language
-  return resolveLanguage(language);
 };
 
 /**
@@ -297,8 +251,3 @@ export const createOrReturnI18nInstance = (lng: string) => {
 
   return i18nInstance;
 };
-
-/**
- * Default language code for the application
- */
-export const domainDefaultLanguage = getDefaultLanguage();

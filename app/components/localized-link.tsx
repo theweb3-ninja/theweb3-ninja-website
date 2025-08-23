@@ -1,8 +1,7 @@
 import type { ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, type LinkProps } from 'react-router';
-import { supportedLanguages } from '../config';
-import { domainDefaultLanguage } from '../services';
+import { defaultLanguage, supportedLanguages } from '../config';
 
 interface LocalizedLinkProps extends Omit<LinkProps, 'to'> {
   to: string;
@@ -27,7 +26,7 @@ export const LocalizedLink = ({ to, children, ...rest }: LocalizedLinkProps) => 
   }
 
   // Don't add language prefix for default language
-  if (currentLanguage === domainDefaultLanguage) {
+  if (currentLanguage === defaultLanguage) {
     return (
       <Link to={to} {...rest}>
         {children}
@@ -40,7 +39,7 @@ export const LocalizedLink = ({ to, children, ...rest }: LocalizedLinkProps) => 
     // Handle root path
     if (to === '/') {
       return (
-        <Link to={`/${currentLanguage === domainDefaultLanguage ? '' : currentLanguage}`} {...rest}>
+        <Link to={`/${currentLanguage === defaultLanguage ? '' : currentLanguage}`} {...rest}>
           {children}
         </Link>
       );
@@ -48,8 +47,8 @@ export const LocalizedLink = ({ to, children, ...rest }: LocalizedLinkProps) => 
 
     // Handle other paths
     const localizedTo = to.startsWith('/')
-      ? `/${currentLanguage === domainDefaultLanguage ? '' : currentLanguage}${to}`
-      : `/${currentLanguage === domainDefaultLanguage ? '' : currentLanguage}/${to}`;
+      ? `/${currentLanguage === defaultLanguage ? '' : currentLanguage}${to}`
+      : `/${currentLanguage === defaultLanguage ? '' : currentLanguage}/${to}`;
 
     return (
       <Link to={localizedTo} {...rest}>

@@ -1,45 +1,46 @@
 import { generateRemixSitemap } from '@forge42/seo-tools/remix/sitemap';
 import { LoaderFunctionArgs, type ServerBuild } from 'react-router';
-import { getDefaultLanguage } from '../services';
+import { defaultLanguage } from '../config';
 
-const replacePath = (lng?: string, path?: string, defaultLng?: string): string => {
-  if (!path) return path || '';
+const replacePath = (lng: string, path: string, defaultLng?: string): string => {
+  const pathWithLng = path.replace(':lng?', `/${lng}`);
 
-  return path.replace(':lng?', `/${lng}`).replace(`/${defaultLng}`, '');
+  if (defaultLng && pathWithLng.startsWith(`/${defaultLng}`)) {
+    return pathWithLng.replace(`/${defaultLng}`, '');
+  }
+
+  return pathWithLng;
 };
 
-const rewriteRoutes = (routes: ServerBuild['routes'], lng?: string, defaultLng?: string) => {
+const rewriteRoutes = (routes: ServerBuild['routes'], lng: string, defaultLng?: string) => {
   if (!routes) {
     return [];
   }
 
   return Object.values(routes)
     .map(route => {
-      const path = replacePath(lng, route?.path, defaultLng);
+      if (!route?.path) return route;
 
-      if (route && route.path) {
-        route.path = path === '' ? '/' : path;
-      }
+      const path = replacePath(lng, route.path, defaultLng);
 
-      return route;
+      return { ...route, path: route.path === '' ? '/' : path };
     })
     .filter(route => route?.path && !route?.path.match(/[*:]/));
 };
 
-export const loader = async ({ request, params }: LoaderFunctionArgs) => {
+export const loader = async ({ request, params: { lng } }: LoaderFunctionArgs) => {
   const serverBuild = await import('virtual:react-router/server-build');
   const { routes } = serverBuild;
   const { host } = new URL(request.url);
-  const lng = params.lng;
 
   const routeEntries = rewriteRoutes(routes, lng);
 
-  if (lng === getDefaultLanguage()) {
-    const routeBaseEntries = rewriteRoutes(routes, lng, getDefaultLanguage());
+  if (lng === defaultLanguage) {
+    const routeBaseEntries = rewriteRoutes(routes, lng, defaultLanguage);
 
     const sitemap = await generateRemixSitemap({
       domain: host,
-      routes: [...routeBaseEntries, ...routeEntries] as unknown as ServerBuild['routes'],
+      routes: [...routeBaseEntries, ...routeEntries],
     });
 
     return new Response(sitemap, {
@@ -51,7 +52,7 @@ export const loader = async ({ request, params }: LoaderFunctionArgs) => {
 
   const sitemap = await generateRemixSitemap({
     domain: host,
-    routes: routeEntries as unknown as ServerBuild['routes'],
+    routes: routeEntries,
   });
 
   return new Response(sitemap, {

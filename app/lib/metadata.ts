@@ -1,7 +1,7 @@
 import { TFunction } from 'i18next';
 import { MetaTagConfig, PageMetadata, SeoMetaOptions } from 'shared';
-import { companyInfo, contactInfo, supportedLanguages, URL_GLOBAL } from '../config';
-import { getDefaultLanguage, getLanguageConfig } from '../services';
+import { companyInfo, contactInfo, defaultLanguage, supportedLanguages, URL_GLOBAL } from '../config';
+import { getLanguageConfig } from '../services';
 
 /**
  * Get the current language metadata from i18n translations
@@ -70,7 +70,7 @@ const getPageMetadata = (
 ) => {
   // Get language-specific metadata if a language is provided
   // Ensure we're using a string language code
-  const languageCode = language || getDefaultLanguage();
+  const languageCode = language || defaultLanguage;
   const localizedMetadata = getSiteMetadata(t, languageCode);
 
   // Use provided values or fallback to localized defaults
@@ -91,6 +91,16 @@ const getPageMetadata = (
   };
 };
 
+const replacePath = (lng: string, path: string, defaultLng?: string): string => {
+  const pathWithLng = path.replace(':lng?', `/${lng}`);
+
+  if (defaultLng && pathWithLng.startsWith(`/${defaultLng}`)) {
+    return pathWithLng.replace(`/${defaultLng}`, '');
+  }
+
+  return pathWithLng;
+};
+
 /**
  * Get meta tag configuration for a specific domain
  * @param pathname - The pathname to get meta tags for
@@ -98,10 +108,10 @@ const getPageMetadata = (
  */
 const getMetaCanonical = (pathname?: string): MetaTagConfig => {
   // Default canonical URL
-  const canonical = `${URL_GLOBAL}${pathname?.substring(3)}`;
+  const canonical = `${URL_GLOBAL}${pathname}`;
 
   const otherAlternates = supportedLanguages.map(lang => ({
-    href: `${URL_GLOBAL}/${lang}${pathname?.substring(3)}`,
+    href: `${URL_GLOBAL}/${replacePath(lang, pathname || '', defaultLanguage)}`,
     hreflang: `${lang}-${lang === 'en' ? 'gb' : lang}`,
   }));
 
@@ -121,7 +131,7 @@ export const generateMetaTags = (
 ) => {
   const { title, description, image, keywords, language, noIndex } = options;
   const { canonical, alternates } = getMetaCanonical(pathname);
-  const currentLanguage = language || getDefaultLanguage();
+  const currentLanguage = language || defaultLanguage;
   const currentLangConfig = getLanguageConfig(currentLanguage);
 
   // Get localized metadata for the current language

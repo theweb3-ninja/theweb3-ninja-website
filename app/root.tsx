@@ -16,11 +16,12 @@ import {
 } from 'react-router';
 import { RootLoaderData } from 'shared';
 import tailwindcss from './app.css?url';
-import { AnalyticsScript, OrganizationSchemaScript, ConditionalStrictMode } from './components';
+import { AnalyticsScript, ConditionalStrictMode, OrganizationSchemaScript } from './components';
 import { Toaster } from './components/ui/toaster';
 import { TooltipProvider } from './components/ui/tooltip';
+import { defaultLanguage } from './config';
 import { ThemeProvider, ThemeScript } from './providers';
-import { createOrReturnI18nInstance, getDefaultLanguage, getDefaultLanguageFromHtmlTag } from './services';
+import { createOrReturnI18nInstance, getDefaultLanguageFromHtmlTag, getLanguageFromAcceptLanguage } from './services';
 
 const queryClient = new QueryClient();
 
@@ -38,7 +39,7 @@ export function loader({ params, request }: LoaderFunctionArgs): RootLoaderData 
   const pathname = url.pathname;
 
   // Extract optional language parameter from URL or fallback to default
-  return { detectedLanguage: params.lng || getDefaultLanguage(request), hostname, pathname };
+  return { detectedLanguage: params.lng || getLanguageFromAcceptLanguage(request), hostname, pathname };
 }
 
 export function clientLoader({ params, request }: LoaderFunctionArgs): RootLoaderData {
@@ -48,7 +49,7 @@ export function clientLoader({ params, request }: LoaderFunctionArgs): RootLoade
 
   // Extract optional language parameter from URL or fallback to default
   return {
-    detectedLanguage: params.lng || getDefaultLanguageFromHtmlTag() || getDefaultLanguage(request),
+    detectedLanguage: params.lng || getDefaultLanguageFromHtmlTag() || getLanguageFromAcceptLanguage(request),
     hostname,
     pathname,
   };
@@ -56,7 +57,7 @@ export function clientLoader({ params, request }: LoaderFunctionArgs): RootLoade
 
 export function Layout({ children }: { children: ReactNode }) {
   const loaderData = useRouteLoaderData<RootLoaderData>('root');
-  const detectedLanguage = loaderData?.detectedLanguage || getDefaultLanguage();
+  const detectedLanguage = loaderData?.detectedLanguage || defaultLanguage;
   const i18nInstance = createOrReturnI18nInstance(detectedLanguage);
 
   return (
