@@ -1,5 +1,4 @@
 export * from './analytics-script';
-export * from './bonus-resources-section';
 export * from './bottom-bar';
 export * from './client-only-language-selector';
 export * from './client-only-localized-link';
@@ -18,9 +17,7 @@ export * from './layout-header';
 export * from './layout-loading';
 export * from './localized-link';
 export * from './organization-schema-script';
-export * from './sections';
 export * from './seo-meta';
 export * from './stats-section';
 export * from './testimonials-section';
 export * from './theme-toggle';
-export * from './vendor';
