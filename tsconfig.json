@@ -1,0 +1,12 @@
+{
+  "exclude": ["node_modules"],
+  "files": [],
+  "references": [{"path": "./tsconfig.app.json"}, {"path": "./tsconfig.cloudflare.json"}, {"path": "./tsconfig.eslint.json"}, {"path": "./tsconfig.node.json"}],
+  "compilerOptions": {
+    "checkJs": true,
+    "verbatimModuleSyntax": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true
+  }
+}

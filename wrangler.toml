@@ -1,0 +1,69 @@
+name = 'eveo'
+main = "worker/index.ts"
+compatibility_date = "2025-08-15"
+compatibility_flags = [ "nodejs_compat", "nodejs_compat_populate_process_env" ]
+account_id = "8207be57dc3a88f50bc29b302ef959ed"
+workers_dev = true
+
+kv_namespaces = [
+  { binding = "KV_EVEO", id = "2a95337205f84129b87971b38a098a83" }
+]
+
+[assets]
+directory = "./dist/client"
+not_found_handling = "404-page"
+html_handling = "force-trailing-slash"
+binding = "ASSETS"
+
+[vars]
+CF_ACCOUNT_ID = "8207be57dc3a88f50bc29b302ef959ed"
+ZONE_ID = "567c9d3db5efb24c818069c19e9655bd"
+EMAIL_LIST_ID_ENV = "d7fc8876-512f-11f0-a8b8-772716298708"
+VITE_ENV = "development"
+
+[observability]
+logs.enabled = true
+
+[env.staging]
+name = "eveo"
+workers_dev = true
+routes = [
+    { pattern = "*staging-eveo.ness0.workers.dev/*", zone_name = "ness0.workers.dev" },
+    { pattern = "it-staging-eveo.ness0.workers.dev", zone_name = "ness0.workers.dev", custom_domain = true },
+    { pattern = "es-staging-eveo.ness0.workers.dev", zone_name = "ness0.workers.dev", custom_domain = true },
+]
+kv_namespaces = [
+  { binding = "KV_EVEO", id = "2a95337205f84129b87971b38a098a83" }
+]
+
+[env.staging.vars]
+CF_ACCOUNT_ID = "8207be57dc3a88f50bc29b302ef959ed"
+ZONE_ID = "567c9d3db5efb24c818069c19e9655bd"
+EMAIL_LIST_ID_ENV = "d7fc8876-512f-11f0-a8b8-772716298708"
+VITE_ENV = "staging"
+
+[env.staging.observability]
+logs.enabled = true
+
+[env.production]
+name = "eveo"
+routes = [
+    { pattern = "geteveo.com/*", zone_name = "geteveo.com" },
+    { pattern = "eveo.it/*", zone_name = "eveo.it" },
+    { pattern = "eveo.es/*", zone_name = "eveo.es" },
+    { pattern = "geteveo.com", zone_name = "geteveo.com", custom_domain = true },
+    { pattern = "eveo.it", zone_name = "eveo.it", custom_domain = true },
+    { pattern = "eveo.es", zone_name = "eveo.es", custom_domain = true },
+]
+kv_namespaces = [
+  { binding = "KV_EVEO", id = "2a95337205f84129b87971b38a098a83" }
+]
+
+[env.production.vars]
+CF_ACCOUNT_ID = "8207be57dc3a88f50bc29b302ef959ed"
+ZONE_ID = "567c9d3db5efb24c818069c19e9655bd"
+EMAIL_LIST_ID_ENV = "d7fc8876-512f-11f0-a8b8-772716298708"
+VITE_ENV = "production"
+
+[env.production.observability]
+logs.enabled = true

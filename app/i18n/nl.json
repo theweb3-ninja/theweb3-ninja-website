@@ -1,0 +1,407 @@
+{
+  "hero": {
+    "title": "Vind de beste leveranciers",
+    "titleHighlight": "voor jouw evenement",
+    "subtitle": "Eveo is de marktplaats die evenementorganisatoren en leveranciers samenbrengt. Vind alles wat je nodig hebt voor je perfecte evenement, allemaal op één plek.",
+    "organizerTitle": "Organiseer je een Evenement?",
+    "organizerSubtitle": "Vind geverifieerde leveranciers voor catering, locaties, entertainment en veel meer",
+    "organizerCta": "Start als Organisator",
+    "supplierTitle": "Ben je een Leverancier?",
+    "supplierSubtitle": "Sluit je aan bij ons netwerk en verbind met organisatoren die jouw diensten zoeken",
+    "supplierCta": "Registreer als Leverancier"
+  },
+  "howItWorks": {
+    "title": "Hoe Eveo Werkt",
+    "subtitle": "Drie eenvoudige stappen om te verbinden met perfecte leveranciers voor je evenement",
+    "step1Title": "1. Beschrijf je Behoeften",
+    "step1Desc": "Beschrijf je evenement, budget en vereisten. Ons intelligente systeem begrijpt precies waar je naar op zoek bent.",
+    "step2Title": "2. Vind Perfecte Matches",
+    "step2Desc": "Ontvang gepersonaliseerde aanbevelingen van geverifieerde leveranciers die perfect passen bij je criteria en budget.",
+    "step3Title": "3. Boek & Vier",
+    "step3Desc": "Vergelijk offertes, boek je favoriete leveranciers en geniet van je perfect georganiseerde evenement met gemoedsrust."
+  },
+  "testimonials": {
+    "title": "Wat Onze Gebruikers Zeggen Over Onze Beta Launch",
+    "subtitle": "Sluit je aan bij duizenden tevreden evenementorganisatoren en leveranciers",
+    "review1": "Eveo maakte het organiseren van ons bedrijfsevenement ongelooflijk eenvoudig. We vonden de perfecte locatie en catering in slechts één middag!",
+    "reviewer1Name": "Mark R.",
+    "reviewer1Role": "Evenement Manager",
+    "review2": "Als fotografe heeft Eveo me verbonden met fantastische klanten. Het platform is professioneel en eenvoudig te gebruiken.",
+    "reviewer2Name": "Sarah B.",
+    "reviewer2Role": "Fotografe",
+    "review3": "De kwaliteit van leveranciers op Eveo is uitzonderlijk. We hebben 5 evenementen georganiseerd via het platform met perfecte resultaten.",
+    "reviewer3Name": "Lucas V.",
+    "reviewer3Role": "HR Directeur",
+    "review4": "Vond de perfecte DJ voor de opening van mijn winkel via Eveo. Het boekingsproces was naadloos en stressvrij.",
+    "reviewer4Name": "Emma C.",
+    "reviewer4Role": "Ambachtelijke",
+    "review5": "Als cateraar heeft Eveo mijn boekingen verdrievoudigd. De klanten zijn serieus en het platform regelt alles soepel.",
+    "reviewer5Name": "Antonio M.",
+    "reviewer5Role": "Chef & Cateraar",
+    "review6": "Eveo hielp ons bij het organiseren van de jaarlijkse conferentie van ons bedrijf. Alles was perfect van begin tot eind.",
+    "reviewer6Name": "David K.",
+    "reviewer6Role": "Operations Manager",
+    "review7": "De locatie-aanbevelingen waren perfect voor onze productlancering. Bespaarde ons weken onderzoek!",
+    "reviewer7Name": "Jennifer L.",
+    "reviewer7Role": "Marketing Directeur",
+    "review8": "Als bloemiste heb ik geweldige evenement-mogelijkheden gevonden via Eveo. Het platform werkt echt!",
+    "reviewer8Name": "Maria S.",
+    "reviewer8Role": "Bloemen Designer",
+    "review9": "Eveo's leveranciers netwerk is ongelooflijk. We hebben nog nooit zo'n soepele evenement coördinatie gehad.",
+    "reviewer9Name": "Robert T.",
+    "reviewer9Role": "Evenementcoördinator"
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen",
+    "subtitle": "Alles wat je moet weten over Eveo",
+    "q1": "Hoe werkt Eveo?",
+    "a1": "Beschrijf gewoon je evenementbehoeften en we verbinden je met geverifieerde leveranciers die passen bij je vereisten en budget. Je kunt offertes vergelijken en direct boeken via ons platform.",
+    "q2": "Is Eveo gratis?",
+    "a2": "Ja! Evenementorganisatoren kunnen Eveo volledig gratis gebruiken. Leveranciers betalen een maandelijks of jaarlijks abonnement om op het platform aanwezig te zijn en alle diensten te gebruiken.",
+    "q3": "Hoe worden leveranciers geverifieerd?",
+    "a3": "Alle leveranciers doorlopen een rigoureus verificatieproces dat bedrijfslicentie-checks, verzekeringverificatie en portfolio-review omvat. We monitoren ook continu prestaties en klantfeedback.",
+    "q4": "Welke soorten evenementen ondersteunen jullie?",
+    "a4": "We ondersteunen alle soorten evenementen, van privé-evenementen tot grote bedrijfsbijeenkomsten. Onze leveranciers dekken alles van locaties en catering tot entertainment en technische diensten."
+  },
+  "features": {
+    "title": "Waarom Kiezen voor Eveo?",
+    "subtitle": "We maken evenementorganisatie simpel door je te verbinden met de juiste leveranciers",
+    "perfectMatch": "Perfecte Matches",
+    "perfectMatchDesc": "Ons intelligente matching-algoritme verbindt je met leveranciers die exact passen bij je behoeften en budget",
+    "lightning": "Bliksemsnelle Service",
+    "lightningDesc": "Krijg offertes en reacties van meerdere leveranciers in uren, niet dagen",
+    "verified": "Geverifieerde Kwaliteit",
+    "verifiedDesc": "Alle leveranciers zijn geverifieerd en beoordeeld door onze gemeenschap voor je gemoedsrust"
+  },
+  "stats": {
+    "title": "Sluit je aan bij Honderden Tevreden Gebruikers",
+    "events": "Evenementen Georganiseerd",
+    "suppliers": "Geverifieerde Leveranciers",
+    "categories": "Service Categorieën",
+    "successRate": "Succespercentage"
+  },
+  "finalCta": {
+    "title": "Klaar om je Evenementen te Transformeren?",
+    "subtitle": "Sluit je vandaag aan bij Eveo en ontdek de toekomst van evenementorganisatie",
+    "cta": "Registreer je Interesse"
+  },
+  "footer": {
+    "tagline": "Evenementen verbinden met perfecte leveranciers, één viering tegelijk.",
+    "copyright": "Alle rechten voorbehouden.",
+    "privacyPolicy": "Privacybeleid"
+  },
+  "contact": {
+    "title": "Contact Ons",
+    "organizerTitle": "Krijg Je Gratis Hulpmiddelen",
+    "contactInfo": "Contactinformatie",
+    "eventInfo": "Evenement Informatie",
+    "serviceInfo": "Service Informatie",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "companyName": "Bedrijfsnaam",
+    "companyNameOptional": "Bedrijfsnaam (optioneel)",
+    "companyNameRequired": "Bedrijfsnaam *",
+    "optional": "(optioneel)",
+    "required": "(*)",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "eventTypeQuestion": "Welk type evenementen organiseer je?",
+    "eventTypePersonal": "Persoonlijk",
+    "eventTypeBusiness": "Zakelijk",
+    "eventTypeBoth": "Beide",
+    "serviceTypeQuestion": "Welk type diensten bied je aan?",
+    "serviceHotel": "Hotels en accommodatie",
+    "servicePhotoVideo": "Foto & video maken",
+    "serviceCatering": "Catering",
+    "serviceMerchandise": "Merchandise en kantoorbenodigdheden",
+    "serviceAudioVideo": "Audio & Video service",
+    "serviceDj": "DJ",
+    "serviceTransport": "Transfer & Voertuigverhuur",
+    "serviceLeisure": "Vrijetijdsactiviteiten & Ervaringen",
+    "serviceConsulting": "Marketing, Design, Grafische Consultancy",
+    "serviceOther": "Andere",
+    "continue": "Doorgaan",
+    "back": "Terug",
+    "submit": "Versturen",
+    "downloadResources": "Gratis Bronnen Downloaden",
+    "downloadResourcesOrganizer": "Bronnen Downloaden",
+    "requiredMark": "*",
+    "errorFillFields": "Vul alle verplichte velden in",
+    "errorCompanyRequired": "Bedrijfsnaam is verplicht voor leveranciers",
+    "errorEventType": "Selecteer het type evenementen dat je organiseert",
+    "errorServiceType": "Selecteer ten minste één type service dat je aanbiedt",
+    "successTitle": "Bedankt voor je registratie!",
+    "successMessage": "We nemen binnenkort contact met je op met meer informatie.",
+    "error": "Fout",
+    "fillPersonalInfo": "Vul je persoonlijke gegevens in",
+    "fillEventInfo": "Vertel ons over je evenement",
+    "fillServiceInfo": "Selecteer de diensten die je aanbiedt",
+    "pdfGuide": "PDF-gids voor evenementorganisatie",
+    "excelSheet": "Excel-sheet voor offertebeheer"
+  },
+  "cookieConsent": {
+    "accept": "Accepteren",
+    "message": "Deze website gebruikt cookies om uw gebruikerservaring te verbeteren en gepersonaliseerde inhoud te bieden."
+  },
+  "nav": {
+    "howItWorks": "Hoe Het Werkt",
+    "features": "Functies",
+    "testimonials": "Testimonials",
+    "faq": "FAQ"
+  },
+  "categories": {
+    "title": "Bladeren op Categorie",
+    "subtitle": "Vind de perfecte aanbieders voor jouw evenement",
+    "viewAll": "Bekijk Alle Categorieën",
+    "hotels-venues": "Hotels & Accommodaties",
+    "hotels-venues-desc": "Vind de beste hotels en locaties voor jouw evenement",
+    "equipment-supplies": "Merchandise & Uitrusting",
+    "equipment-supplies-desc": "Vind de beste uitrusting en benodigdheden voor jouw evenement",
+    "catering": "Catering",
+    "catering-desc": "Vind de beste cateringdiensten voor jouw evenement",
+    "restaurants": "Restaurants",
+    "restaurants-desc": "Vind de beste restaurants voor jouw evenement",
+    "training-coaching": "Training & Coaching",
+    "training-coaching-desc": "Vind de beste trainings- en coachingsdiensten voor jouw evenement",
+    "audio-video": "Audio & Video",
+    "audio-video-desc": "Vind de beste audio- en videodiensten voor jouw evenement",
+    "dj-services": "DJ Diensten",
+    "dj-services-desc": "Vind de beste DJ-diensten voor jouw evenement",
+    "marketing-design": "Marketing & Ontwerp",
+    "marketing-design-desc": "Vind de beste marketing- en ontwerpdiensten voor jouw evenement",
+    "photography-video": "Fotografie & Video",
+    "photography-video-desc": "Vind de beste fotografie- en videodiensten voor jouw evenement",
+    "transportation": "Vervoer",
+    "transportation-desc": "Vind de beste vervoersdiensten voor jouw evenement",
+    "travel-tours": "Reizen & Tours",
+    "travel-tours-desc": "Vind de beste reis- en tourdiensten voor jouw evenement",
+    "leisure-experiences": "Vrije Tijd & Ervaringen",
+    "leisure-experiences-desc": "Vind de beste vrijetijds- en ervaringsdiensten voor jouw evenement"
+  },
+  "metadata": {
+    "slogan": "Eveo | Evenement Marktplaats voor Organisatoren en Leveranciers",
+    "description": "Eveo is de marktplaats die evenementorganisatoren en leveranciers samenbrengt. Vind alles wat je nodig hebt voor je perfecte evenement, allemaal op één plek.",
+    "keywords": "event marketplace, event organizers, event suppliers, venue booking, catering services, event planning, event management",
+    "tagline": "Evenementen verbinden met perfecte leveranciers, één viering per keer."
+  },
+  "notFound": {
+    "title": "404 - Pagina niet gevonden",
+    "heading": "404",
+    "message": "Oeps! Pagina niet gevonden",
+    "returnHome": "Terug naar home"
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "subtitle": "INFORMATIE OVER DE VERWERKING VAN PERSOONSGEGEVENS VOLGENS ART. 13 VAN EU-VERORDENING 679/2016",
+    "description": "Privacybeleid van Eveo - Ontdek hoe wij uw persoonlijke gegevens beschermen",
+    "lastUpdate": "Laatst bijgewerkt",
+    "backToHome": "Terug naar home",
+    "controller": {
+      "title": "Verwerkingsverantwoordelijke",
+      "content": "De verwerkingsverantwoordelijke is Eveo S.r.l., met maatschappelijke zetel in {{address}}, vertegenwoordigd door zijn wettelijke vertegenwoordiger pro tempore (hierna ook de \"Verantwoordelijke\"). Voor vragen of informatie kunt u contact met ons opnemen via het e-mailadres: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>."
+    },
+    "dataTypes": {
+      "title": "Soorten verwerkte gegevens",
+      "voluntaryData": {
+        "title": "Gegevens die vrijwillig door de gebruiker zijn verstrekt via formulieren op www.eveo.it",
+        "name": "Naam (verplicht)",
+        "surname": "Achternaam (optioneel)",
+        "company": "Bedrijfsnaam (optioneel)",
+        "email": "E-mail (verplicht)",
+        "phone": "Telefoonnummer (optioneel)"
+      },
+      "automaticData": {
+        "title": "Automatisch verzamelde gegevens",
+        "ip": "IP-adres",
+        "datetime": "Datum en tijd van toegang",
+        "cookies": "Technische cookies (zie apart cookiebeleid)",
+        "noProfileInfo": "Geen automatisch verzamelde gegevens worden gebruikt om de gebruiker direct te identificeren of voor profilerings-activiteiten."
+      }
+    },
+    "purposes": {
+      "title": "Doeleinden van verwerking en rechtsgrond",
+      "waitingList": "Het aanmaken van een wachtlijst voor gebruikers en leveranciers die geïnteresseerd zijn in het ontvangen van offertes voor de organisatie van evenementen - rechtsgrond: uitvoering van precontractuele maatregelen volgens art. 6, lid 1, letter b) AVG",
+      "marketing": "Het versturen van updates en promotionele communicatie via e-mail - rechtsgrond: toestemming van de betrokkene (art. 6, lid 1, letter a) AVG)",
+      "analytics": "Geaggregeerde webverkeeranalyse via statistische cookies - rechtsgrond: toestemming van de betrokkene (zie cookiebeleid)."
+    },
+    "dataProvision": {
+      "title": "Aard van de gegevensverstrekking",
+      "content": "Het verstrekken van gegevens gemarkeerd met een asterisk (*) is verplicht om gecontacteerd te worden of op de wachtlijst te worden geregistreerd. Het niet verstrekken van deze gegevens maakt het onmogelijk om een antwoord of updates te geven. Toestemming voor promotionele doeleinden is optioneel en kan op elk moment worden ingetrokken."
+    },
+    "processingMethods": {
+      "title": "Verwerkingsmethoden",
+      "content": "De gegevens worden elektronisch en handmatig verwerkt met inachtneming van de principes van vertrouwelijkheid, integriteit en beschikbaarheid, met passende technische en organisatorische maatregelen (art. 32 AVG)."
+    },
+    "dataRecipients": {
+      "title": "Ontvangers van gegevens",
+      "employees": "Geautoriseerde werknemers en medewerkers van de Verantwoordelijke",
+      "providers": "IT- en hostingdienstverleners (verwerkers)",
+      "authorities": "Overheidsinstanties alleen in wettelijk voorgeschreven gevallen",
+      "listAvailable": "De bijgewerkte lijst van verwerkers is op verzoek beschikbaar."
+    },
+    "dataRetention": {
+      "title": "Gegevensbewaring",
+      "contactData": "Gegevens voor contact- of wachtlijstdoeleinden: tot 12 maanden vanaf verzameling",
+      "consentData": "Gegevens verwerkt op basis van toestemming: tot intrekking of maximaal 2 jaar",
+      "navigationData": "Navigatiegegevens: voor de tijd die nodig is om de werking van de website te verzekeren"
+    },
+    "userRights": {
+      "title": "Rechten van de betrokkene",
+      "intro": "Volgens artikelen 15-22 van de AVG heeft de gebruiker het recht om:",
+      "access": "Toegang te krijgen tot zijn gegevens",
+      "rectification": "Rectificatie of verwijdering ervan te vragen",
+      "objection": "Bezwaar te maken tegen de verwerking",
+      "portability": "Gegevensoverdraagbaarheid te verkrijgen",
+      "withdraw": "De toestemming op elk moment in te trekken",
+      "complaint": "Een klacht in te dienen bij de Toezichthoudende Autoriteit",
+      "contact": "Om uw rechten uit te oefenen: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>"
+    },
+    "transfers": {
+      "title": "Internationale overdrachten",
+      "content": "De gegevens worden niet overgedragen buiten de Europese Economische Ruimte."
+    },
+    "cookies": {
+      "title": "Cookiebeleid",
+      "description": "Laatst bijgewerkt: 03/07/2025",
+      "whatAre": {
+        "title": "Wat zijn cookies?",
+        "content": "Cookies zijn kleine tekstbestanden die websites op uw apparaat (pc, smartphone, tablet) kunnen opslaan om uw browse-ervaring efficiënter te maken."
+      },
+      "typesUsed": {
+        "title": "Soorten cookies gebruikt op eveo.it",
+        "content": "Deze website gebruikt alleen technische en anonieme statistische cookies:"
+      },
+      "table": {
+        "name": "Naam",
+        "purpose": "Doel",
+        "duration": "Duur",
+        "type": "Type"
+      },
+      "cookieConsent": {
+        "purpose": "Slaat de cookie-toestemmingsstatus op",
+        "duration": "1 jaar"
+      },
+      "analytics": {
+        "purpose": "Detectie van geaggregeerde Google Analytics-statistieken (geanonimiseerd)",
+        "duration": "max 2 jaar"
+      },
+      "cookiebot": {
+        "purpose": "CMP-optimalisatie en toestemming",
+        "duration": "Sessie"
+      },
+      "noProfilingCookies": "Er worden geen profiling- of advertentiecookies gebruikt.",
+      "purposes": {
+        "title": "Doeleinden van verwerking",
+        "technical": "Zorgen voor de juiste werking van de website (technische cookies)",
+        "analytics": "Verzamelen van anonieme statistische gegevens over het gebruik van de website, nuttig voor het verbeteren van de gebruikerservaring"
+      },
+      "legalBasis": {
+        "title": "Rechtsgrond",
+        "content": "Voor technische cookies is geen toestemming vereist. Voor geanonimiseerde statistische cookies (bijv. Google Analytics met geanonimiseerd IP) is toestemming volgens de richtlijnen van de Gegevensbeschermingsautoriteit niet verplicht."
+      },
+      "consent": {
+        "title": "Beheer van toestemming",
+        "content": "U kunt uw toestemming op elk moment wijzigen of intrekken door te klikken op de cookiebanner onderaan de website of door naar de instellingen van uw browser te gaan."
+      }
+    },
+    "contact": {
+      "title": "Contacten en Verantwoordelijke",
+      "content": "Voor informatie over de verwerking van gegevens via cookies kunt u contact opnemen met:",
+      "email": "info@eveo.it"
+    }
+  },
+  "bonusResources": {
+    "limitedTime": "Beperkte tijd beschikbaar!",
+    "title": "2 Gratis Hulpmiddelen voor Evenementorganisatoren",
+    "subtitle": "Krijg professionele gratis tools om perfecte evenementen te organiseren",
+    "guide": {
+      "title": "Complete Gids voor Evenementorganisatie",
+      "description": "In deze PDF vind je alle strategieën voor evenementorganisatie. Ontdek trucs om tot 40% te besparen!"
+    },
+    "spreadsheet": {
+      "title": "Management Spreadsheet",
+      "description": "Een professioneel Excel-hulpmiddel om offertes te vergelijken, budgetten te beheren en alle leveranciers bij te houden. Perfect voor vergelijkende analyses en kostenbeheersing."
+    },
+    "free": "Gratis",
+    "downloadButton": "Download Gratis Hulpmiddelen"
+  },
+  "vendors": {
+    "title": "Vind de Beste Leveranciers",
+    "subtitle": "Ontdek geverifieerde leveranciers voor jouw perfecte evenement",
+    "searchPlaceholder": "Zoek leveranciers, diensten, locaties...",
+    "filters": "Filters",
+    "clearFilters": "Wissen",
+    "category": "Categorie",
+    "allCategories": "Alle Categorieën",
+    "allVendors": "Alle Leveranciers",
+    "location": "Locatie",
+    "locationPlaceholder": "Stad of regio",
+    "priceRange": "Prijsklasse",
+    "allPrices": "Alle Prijzen",
+    "minRating": "Minimale Beoordeling",
+    "rating": "Minimale Beoordeling",
+    "verifiedOnly": "Alleen geverifieerde leveranciers",
+    "resultsCount": "{{count}} leveranciers gevonden",
+    "sortByRating": "Beoordeling",
+    "sortByReviews": "Reviews",
+    "sortByName": "Naam",
+    "sortByNewest": "Nieuwste",
+    "sortByPrice": "Prijs",
+    "noResults": "Geen leveranciers gevonden",
+    "noResultsDescription": "Probeer je filters of zoektermen aan te passen",
+    "noResultsDesc": "Probeer je filters of zoektermen aan te passen"
+  },
+  "vendor": {
+    "verified": "Geverifieerd",
+    "contact": "Contact",
+    "viewProfile": "Profiel Bekijken",
+    "responseTime": "Reageert binnen",
+    "notFound": "Leverancier niet gevonden",
+    "backToCatalog": "Terug naar catalogus",
+    "share": "Delen",
+    "requestQuote": "Offerte Aanvragen",
+    "contactInfo": "Contactinformatie",
+    "website": "Website",
+    "services": "Aangeboden Diensten",
+    "languages": "Gesproken Talen",
+    "aboutUs": "Over Ons",
+    "whyChooseUs": "Waarom Voor Ons Kiezen",
+    "gallery": "Fotogalerij",
+    "reviews": "Reviews",
+    "tabs": {
+      "overview": "Overzicht",
+      "gallery": "Galerij",
+      "reviews": "Reviews"
+    },
+    "contactForm": {
+      "title": "Contact",
+      "name": "Naam",
+      "namePlaceholder": "Jouw naam",
+      "email": "E-mail",
+      "emailPlaceholder": "Jouw e-mail",
+      "message": "Bericht",
+      "messagePlaceholder": "Beschrijf je evenement...",
+      "cancel": "Annuleren",
+      "send": "Versturen"
+    },
+    "priceRange": {
+      "budget": "Budget",
+      "mid-range": "Middensegment",
+      "premium": "Premium"
+    },
+    "availability": {
+      "available": "Beschikbaar",
+      "busy": "Bezet",
+      "unavailable": "Niet Beschikbaar"
+    },
+    "coverageArea": {
+      "local": "Lokaal",
+      "regional": "Regionaal",
+      "national": "Nationaal"
+    }
+  },
+  "header": {
+    "logoTitle": "Eveo - Evenementenbeheerplatform",
+    "logoAlt": "Eveo Logo - Evenementenbeheerplatform"
+  }
+}

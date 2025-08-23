@@ -1,0 +1,21 @@
+import { useTranslation } from 'react-i18next';
+import { SeoMeta } from '../components';
+
+export default function Settings() {
+  const { t } = useTranslation();
+
+  const pageMeta = {
+    title: 'Settings',
+    description: 'Account settings and preferences',
+  };
+
+  return (
+    <div className="container mx-auto px-4 py-8">
+      <SeoMeta {...pageMeta} />
+      <h1 className="text-3xl font-bold mb-6">{t('settings.title', 'Settings')}</h1>
+      <div className="prose max-w-none">
+        <p>{t('settings.content', 'Settings content will be added here.')}</p>
+      </div>
+    </div>
+  );
+}

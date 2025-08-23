@@ -1,0 +1,429 @@
+{
+  "hero": {
+    "title": "Plattformen för att hitta",
+    "titleHighlight": "de bästa leverantörerna för ditt evenemang",
+    "subtitle": "Eveo är marknadsplatsen som förenar eventorganisatörer och leverantörer. Hitta allt du behöver för ditt perfekta evenemang, allt på ett ställe.",
+    "organizerTitle": "Organiserar du ett Evenemang?",
+    "organizerSubtitle": "Hitta verifierade leverantörer för catering, platser, underhållning och mycket mer",
+    "organizerCta": "Börja som Organisatör",
+    "supplierTitle": "Är du en Leverantör?",
+    "supplierSubtitle": "Gå med i vårt nätverk och få kontakt med organisatörer som söker dina tjänster",
+    "supplierCta": "Registrera dig som Leverantör"
+  },
+  "howItWorks": {
+    "title": "Så Fungerar Eveo",
+    "subtitle": "Tre enkla steg för att koppla ihop med perfekta leverantörer för ditt evenemang",
+    "step1Title": "1. Beskriv dina Behov",
+    "step1Desc": "Beskriv ditt evenemang, budget och krav. Vårt intelligenta system förstår exakt vad du letar efter.",
+    "step2Title": "2. Hitta Perfekta Matchningar",
+    "step2Desc": "Få personliga rekommendationer från verifierade leverantörer som passar perfekt med dina kriterier och budget.",
+    "step3Title": "3. Boka & Fira",
+    "step3Desc": "Jämför offerter, boka dina favoritleverantörer och njut av ditt perfekt organiserade evenemang med trygghet."
+  },
+  "testimonials": {
+    "title": "Vad Våra Användare Säger Om Vår Beta-lansering",
+    "subtitle": "Gå med tusentals nöjda eventorganisatörer och leverantörer",
+    "review1": "Eveo gjorde det otroligt enkelt att organisera vårt företagsevenemang. Vi hittade den perfekta platsen och cateringen på bara en eftermiddag!",
+    "reviewer1Name": "Mark R.",
+    "reviewer1Role": "Event Manager",
+    "review2": "Som fotograf har Eveo kopplat mig till fantastiska kunder. Plattformen är professionell och lätt att använda.",
+    "reviewer2Name": "Sarah B.",
+    "reviewer2Role": "Fotograf",
+    "review3": "Kvaliteten på leverantörer på Eveo är exceptionell. Vi har organiserat 5 evenemang via plattformen med perfekta resultat.",
+    "reviewer3Name": "Lucas V.",
+    "reviewer3Role": "HR-direktör",
+    "review4": "Hittade den perfekta DJ:n för min butiksinvigning via Eveo. Bokningsprocessen var sömlös och stressfri.",
+    "reviewer4Name": "Emma C.",
+    "reviewer4Role": "Hantverkare",
+    "review5": "Som caterare har Eveo tredubblat mina bokningar. Kunderna är seriösa och plattformen hanterar allt smidigt.",
+    "reviewer5Name": "Antonio M.",
+    "reviewer5Role": "Kock & Caterare",
+    "review6": "Eveo hjälpte oss organisera vårt företags årliga konferens. Allt var perfekt från början till slut.",
+    "reviewer6Name": "David K.",
+    "reviewer6Role": "Operations Manager",
+    "review7": "Platsrekommendationerna var perfekta för vår produktlansering. Sparade oss veckor av research!",
+    "reviewer7Name": "Jennifer L.",
+    "reviewer7Role": "Marknadsföringsdirektör",
+    "review8": "Som florist har jag hittat fantastiska eventmöjligheter via Eveo. Plattformen fungerar verkligen!",
+    "reviewer8Name": "Maria S.",
+    "reviewer8Role": "Blomdesigner",
+    "review9": "Eveos leverantörsnätverk är otroligt. Vi har aldrig haft så smidig eventkoordinering.",
+    "reviewer9Name": "Robert T.",
+    "reviewer9Role": "Evenemangskoordinator"
+  },
+  "faq": {
+    "title": "Vanliga Frågor",
+    "subtitle": "Allt du behöver veta om Eveo",
+    "q1": "Hur fungerar Eveo?",
+    "a1": "Beskriv bara dina eventbehov så kopplar vi dig till verifierade leverantörer som matchar dina krav och budget. Du kan jämföra offerter och boka direkt via vår plattform.",
+    "q2": "Är Eveo gratis?",
+    "a2": "Ja! Eventorganisatörer kan använda Eveo helt gratis. Leverantörer betalar en månads- eller årsbaserad prenumeration för att vara närvarande på plattformen och använda alla tjänster.",
+    "q3": "Hur verifieras leverantörer?",
+    "a3": "Alla leverantörer genomgår en rigorös verifieringsprocess som inkluderar företagslicenskontroller, försäkringsverifiering och portfoliogranskning. Vi övervakar också kontinuerligt prestanda och kundfeedback.",
+    "q4": "Vilka typer av evenemang stöder ni?",
+    "a4": "Vi stöder alla typer av evenemang, från privata evenemang till stora företagssammankomster. Våra leverantörer täcker allt från platser och catering till underhållning och tekniska tjänster."
+  },
+  "features": {
+    "title": "Varför Välja Eveo?",
+    "subtitle": "Vi gör eventorganisation enkelt genom att koppla dig till rätt leverantörer",
+    "perfectMatch": "Perfekta Matchningar",
+    "perfectMatchDesc": "Vår intelligenta matchningsalgoritm kopplar dig till leverantörer som exakt passar dina behov och budget",
+    "lightning": "Blixtsnabb Service",
+    "lightningDesc": "Få offerter och svar från flera leverantörer på timmar, inte dagar",
+    "verified": "Verifierad Kvalitet",
+    "verifiedDesc": "Alla leverantörer är verifierade och betygsatta av vår community för din trygghet"
+  },
+  "stats": {
+    "title": "Gå med Hundratals Nöjda Användare",
+    "events": "Evenemang Organiserade",
+    "suppliers": "Verifierade Leverantörer",
+    "categories": "Servicekategorier",
+    "successRate": "Framgångsgrad"
+  },
+  "finalCta": {
+    "title": "Redo att Transformera dina Evenemang?",
+    "subtitle": "Gå med Eveo idag och upptäck framtiden för eventorganisation",
+    "cta": "Registrera ditt Intresse"
+  },
+  "footer": {
+    "tagline": "Kopplar evenemang till perfekta leverantörer, en firande i taget.",
+    "copyright": "Alla rättigheter förbehållna."
+  },
+  "contact": {
+    "title": "Kontakta Oss",
+    "organizerTitle": "Få Dina Kostnadsfria Resurser",
+    "contactInfo": "Kontaktinformation",
+    "eventInfo": "Eventinformation",
+    "serviceInfo": "Serviceinformation",
+    "firstName": "Förnamn",
+    "lastName": "Efternamn",
+    "companyName": "Företagsnamn",
+    "companyNameOptional": "Företagsnamn (valfritt)",
+    "companyNameRequired": "Företagsnamn *",
+    "optional": "(valfritt)",
+    "required": "(*)",
+    "email": "E-post",
+    "phone": "Telefon",
+    "eventTypeQuestion": "Vilken typ av evenemang organiserar du?",
+    "eventTypePersonal": "Personligt",
+    "eventTypeBusiness": "Företag",
+    "eventTypeBoth": "Båda",
+    "serviceTypeQuestion": "Vilken typ av tjänster erbjuder du?",
+    "serviceHotel": "Hotell och boende",
+    "servicePhotoVideo": "Foto & video",
+    "serviceCatering": "Catering",
+    "serviceMerchandise": "Merchandise och kontorsmaterial",
+    "serviceAudioVideo": "Audio & Video service",
+    "serviceDj": "DJ",
+    "serviceTransport": "Transfer & Fordonsuthyrning",
+    "serviceLeisure": "Fritidsaktiviteter & Upplevelser",
+    "serviceConsulting": "Marknadsföring, Design, Grafisk Konsultation",
+    "serviceOther": "Annat",
+    "continue": "Fortsätt",
+    "back": "Tillbaka",
+    "submit": "Skicka",
+    "downloadResources": "Ladda ner Kostnadsfria Resurser",
+    "requiredMark": "*",
+    "errorFillFields": "Fyll i alla obligatoriska fält",
+    "errorCompanyRequired": "Företagsnamn krävs för leverantörer",
+    "errorEventType": "Välj typ av evenemang du organiserar",
+    "errorServiceType": "Välj minst en typ av tjänst du erbjuder",
+    "successTitle": "Tack för din registrering!",
+    "successMessage": "Vi kontaktar dig snart med mer information.",
+    "error": "Fel",
+    "fillPersonalInfo": "Vänligen fyll i din personliga information",
+    "fillEventInfo": "Berätta om ditt evenemang",
+    "fillServiceInfo": "Välj tjänster du erbjuder",
+    "pdfGuide": "PDF-guide för evenemangsorganisation",
+    "excelSheet": "Excel-ark för offerthantering"
+  },
+  "cookieConsent": {
+    "accept": "Acceptera",
+    "message": "Denna webbplats använder cookies för att förbättra din användarupplevelse och tillhandahålla personligt innehåll."
+  },
+  "nav": {
+    "howItWorks": "Hur Det Fungerar",
+    "features": "Funktioner",
+    "testimonials": "Testimonials",
+    "faq": "FAQ"
+  },
+  "categories": {
+    "title": "Bläddra efter Kategori",
+    "subtitle": "Hitta de perfekta leverantörerna för ditt evenemang",
+    "viewAll": "Visa Alla Kategorier",
+    "hotels-venues": {
+      "title": "Hotell & Boenden",
+      "description": "Hitta de bästa hotellen och lokalerna för ditt evenemang"
+    },
+    "equipment-supplies": {
+      "title": "Merchandise & Utrustning",
+      "description": "Hitta den bästa utrustningen och förnödenheterna för ditt evenemang"
+    },
+    "catering": {
+      "title": "Catering",
+      "description": "Hitta de bästa cateringtjänsterna för ditt evenemang"
+    },
+    "restaurants": {
+      "title": "Restauranger",
+      "description": "Hitta de bästa restaurangerna för ditt evenemang"
+    },
+    "training-coaching": {
+      "title": "Utbildning & Coachning",
+      "description": "Hitta de bästa utbildnings- och coachningstjänsterna för ditt evenemang"
+    },
+    "audio-video": {
+      "title": "Ljud & Bild",
+      "description": "Hitta de bästa ljud- och bildtjänsterna för ditt evenemang"
+    },
+    "dj-services": {
+      "title": "DJ-tjänster",
+      "description": "Hitta de bästa DJ-tjänsterna för ditt evenemang"
+    },
+    "marketing-design": {
+      "title": "Marknadsföring & Design",
+      "description": "Hitta de bästa marknadsförings- och designtjänsterna för ditt evenemang"
+    },
+    "photography-video": {
+      "title": "Fotografi & Video",
+      "description": "Hitta de bästa fotografi- och videotjänsterna för ditt evenemang"
+    },
+    "transportation": {
+      "title": "Transport",
+      "description": "Hitta de bästa transporttjänsterna för ditt evenemang"
+    },
+    "travel-tours": {
+      "title": "Resor & Tjänster",
+      "description": "Hitta de bästa rese- och tjänstetjänsterna för ditt evenemang"
+    },
+    "leisure-experiences": {
+      "title": "Fritid & Upplevelser",
+      "description": "Hitta de bästa fritids- och upplevelsetjänsterna för ditt evenemang"
+    }
+  },
+  "metadata": {
+    "slogan": "Eveo | Evenemangsmarknadsplats för Arrangörer och Leverantörer",
+    "description": "Eveo är marknadsplatsen som för samman eventarrangörer och leverantörer. Hitta allt du behöver för ditt perfekta evenemang, allt på ett ställe.",
+    "keywords": "event marketplace, event organizers, event suppliers, venue booking, catering services, event planning, event management",
+    "tagline": "Kopplar samman evenemang med perfekta leverantörer, en fest i taget."
+  },
+  "notFound": {
+    "title": "404 - Sidan hittades inte",
+    "heading": "404",
+    "message": "Hoppsan! Sidan hittades inte",
+    "returnHome": "Tillbaka till startsidan"
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "subtitle": "INFORMATION OM BEHANDLING AV PERSONUPPGIFTER ENLIGT ART. 13 I EU-FÖRORDNING 679/2016",
+    "description": "Eveos integritetspolicy - Läs om hur vi skyddar dina personuppgifter",
+    "lastUpdate": "Senast uppdaterad",
+    "backToHome": "Tillbaka till startsidan",
+    "controller": {
+      "title": "Personuppgiftsansvarig",
+      "content": "Personuppgiftsansvarig är Eveo S.r.l., med säte i {{address}}, företrädd av dess juridiska företrädare pro tempore (härefter även \"den Ansvarige\"). För frågor eller information kan du kontakta oss via e-post: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>."
+    },
+    "dataTypes": {
+      "title": "Typer av Behandlade Uppgifter",
+      "voluntaryData": {
+        "title": "Uppgifter som frivilligt lämnats av användaren via formulär på www.eveo.it",
+        "name": "Förnamn (obligatoriskt)",
+        "surname": "Efternamn (valfritt)",
+        "company": "Företagsnamn (valfritt)",
+        "email": "E-post (obligatoriskt)",
+        "phone": "Telefonnummer (valfritt)"
+      },
+      "automaticData": {
+        "title": "Automatiskt insamlade uppgifter",
+        "ip": "IP-adress",
+        "datetime": "Datum och tid för åtkomst",
+        "cookies": "Tekniska cookies (se separat cookie-policy)",
+        "noProfileInfo": "Inga automatiskt insamlade uppgifter används för att direkt identifiera användaren eller för profilering."
+      }
+    },
+    "purposes": {
+      "title": "Behandlingsändamål och Rättslig Grund",
+      "waitingList": "Skapande av en väntelista för användare och leverantörer som är intresserade av att få offerter för evenemangsorganisation - rättslig grund: genomförande av föravtalsenliga åtgärder enligt art. 6, punkt 1, bokstav b) GDPR",
+      "marketing": "Skicka uppdateringar och marknadsföringsmeddelanden via e-post - rättslig grund: den registrerades samtycke (art. 6, punkt 1, bokstav a) GDPR)",
+      "analytics": "Aggregerad webbtrafikanalys via statistiska cookies - rättslig grund: den registrerades samtycke (se cookie-policy)."
+    },
+    "dataProvision": {
+      "title": "Karakten av Uppgiftslämnandet",
+      "content": "Tillhandahållandet av uppgifter markerade med en asterisk (*) är obligatoriskt för att bli kontaktad eller registrerad på väntelistan. Underlatenhet att tillhandahålla dessa uppgifter gör det omöjligt att ge ett svar eller uppdateringar. Samtycke för marknadsföringsändamål är valfritt och kan återkallas när som helst."
+    },
+    "processingMethods": {
+      "title": "Behandlingsmetoder",
+      "content": "Uppgifterna behandlas elektroniskt och manuellt med respekt för principerna om konfidentialitet, integritet och tillgänglighet, med lämpliga tekniska och organisatoriska åtgärder (art. 32 GDPR)."
+    },
+    "dataRecipients": {
+      "title": "Mottagare av Uppgifterna",
+      "employees": "Auktoriserade anställda och medarbetare hos den Ansvarige",
+      "providers": "IT- och hostingleverantörer (personuppgiftsbiträden)",
+      "authorities": "Offentliga organ endast i de fall som föreskrivs i lag",
+      "listAvailable": "Den uppdaterade listan över personuppgiftsbiträden finns tillgänglig på begäran."
+    },
+    "dataRetention": {
+      "title": "Lagring av Uppgifter",
+      "contactData": "Uppgifter för kontakt- eller väntelistesyften: upp till 12 månader från insamlingen",
+      "consentData": "Uppgifter som behandlas på grundval av samtycke: tills återkallelse eller högst 2 år",
+      "navigationData": "Navigeringsdata: för den tid som krävs för att säkerställa webbplatsens funktion"
+    },
+    "userRights": {
+      "title": "Den Registrerades Rättigheter",
+      "intro": "I enlighet med artiklarna 15-22 i GDPR har användaren rätt att:",
+      "access": "Få tillgång till sina uppgifter",
+      "rectification": "Begära rättelse eller radering av dem",
+      "objection": "Invända mot behandlingen",
+      "portability": "Få dataportabilitet",
+      "withdraw": "Återkalla samtycke när som helst",
+      "complaint": "Lämna in ett klagomål till Tillsynsmyndigheten",
+      "contact": "För att utöva dina rättigheter: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>"
+    },
+    "transfers": {
+      "title": "Internationella Överföringar",
+      "content": "Uppgifterna kommer inte att överföras utanför Europeiska ekonomiska samarbetsområdet."
+    },
+    "cookies": {
+      "title": "Cookie-policy",
+      "description": "Senast uppdaterad: 03/07/2025",
+      "whatAre": {
+        "title": "Vad är cookies?",
+        "content": "Cookies är små textfiler som webbplatser kan lagra på din enhet (PC, smartphone, surfplatta) för att göra din surfupplevelse mer effektiv."
+      },
+      "typesUsed": {
+        "title": "Typer av cookies som används på eveo.it",
+        "content": "Denna webbplats använder endast tekniska och anonyma statistiska cookies:"
+      },
+      "table": {
+        "name": "Namn",
+        "purpose": "Syfte",
+        "duration": "Varaktighet",
+        "type": "Typ"
+      },
+      "cookieConsent": {
+        "purpose": "Lagrar cookie-samtyckestatus",
+        "duration": "1 år"
+      },
+      "analytics": {
+        "purpose": "Detektering av aggregerad Google Analytics-statistik (anonymiserad)",
+        "duration": "max 2 år"
+      },
+      "cookiebot": {
+        "purpose": "CMP-optimering och samtycke",
+        "duration": "Session"
+      },
+      "noProfilingCookies": "Inga profilering- eller reklamcookies används.",
+      "purposes": {
+        "title": "Behandlingsändamål",
+        "technical": "Säkerställa korrekt funktion av webbplatsen (tekniska cookies)",
+        "analytics": "Samla in anonym statistisk data om webbplatsanvändning, användbar för att förbättra användarupplevelsen"
+      },
+      "legalBasis": {
+        "title": "Rättslig grund",
+        "content": "För tekniska cookies krävs inget samtycke. För anonymiserade statistiska cookies (t.ex. Google Analytics med anonymiserad IP) är samtycke inte obligatoriskt enligt Dataskyddsmyndighetens riktlinjer."
+      },
+      "consent": {
+        "title": "Hantering av samtycke",
+        "content": "Du kan ändra eller återkalla ditt samtycke när som helst genom att klicka på cookie-bannern längst ner på webbplatsen eller genom att gå till din webbläsares inställningar."
+      }
+    },
+    "contact": {
+      "title": "Kontakter och Ansvarig",
+      "content": "För information om behandling av uppgifter via cookies kan du kontakta:",
+      "email": "info@eveo.it"
+    }
+  },
+  "bonusResources": {
+    "limitedTime": "Tillgängligt under begränsad tid!",
+    "title": "2 Gratis Resurser för Eventarrangörer",
+    "subtitle": "Få professionella gratis verktyg för att organisera perfekta evenemang",
+    "guide": {
+      "title": "Komplett Guide för Evenemangsorganisation",
+      "description": "I denna PDF hittar du alla strategier för evenemangsorganisation. Upptäck tips för att spara upp till 40%!"
+    },
+    "spreadsheet": {
+      "title": "Hantera Kalkylblad",
+      "description": "Ett professionellt Excel-verktyg för att jämföra offerter, hantera budgetar och hålla koll på alla leverantörer. Perfekt för jämförande analyser och kostnadskontroll."
+    },
+    "free": "Gratis",
+    "downloadButton": "Ladda ner Gratis Resurser"
+  },
+  "vendors": {
+    "title": "Hitta de Bästa Leverantörerna",
+    "subtitle": "Upptäck verifierade leverantörer för ditt perfekta evenemang",
+    "searchPlaceholder": "Sök leverantörer, tjänster, platser...",
+    "filters": "Filter",
+    "clearFilters": "Rensa",
+    "category": "Kategori",
+    "allCategories": "Alla Kategorier",
+    "allVendors": "Alla Leverantörer",
+    "location": "Plats",
+    "locationPlaceholder": "Stad eller region",
+    "priceRange": "Prisintervall",
+    "allPrices": "Alla Priser",
+    "minRating": "Lägsta Betyg",
+    "rating": "Lägsta Betyg",
+    "verifiedOnly": "Endast verifierade leverantörer",
+    "resultsCount": "{{count}} leverantörer hittade",
+    "sortByRating": "Betyg",
+    "sortByReviews": "Recensioner",
+    "sortByName": "Namn",
+    "sortByNewest": "Nyaste",
+    "sortByPrice": "Pris",
+    "noResults": "Inga leverantörer hittades",
+    "noResultsDescription": "Försök justera dina filter eller söktermer",
+    "noResultsDesc": "Försök justera dina filter eller söktermer"
+  },
+  "vendor": {
+    "verified": "Verifierad",
+    "contact": "Kontakt",
+    "viewProfile": "Visa Profil",
+    "responseTime": "Svarar inom",
+    "notFound": "Leverantör hittades inte",
+    "backToCatalog": "Tillbaka till katalog",
+    "share": "Dela",
+    "requestQuote": "Begär Offert",
+    "contactInfo": "Kontaktinformation",
+    "website": "Webbplats",
+    "services": "Erbjudna Tjänster",
+    "languages": "Talade Språk",
+    "aboutUs": "Om Oss",
+    "whyChooseUs": "Varför Välja Oss",
+    "gallery": "Fotogalleri",
+    "reviews": "Recensioner",
+    "tabs": {
+      "overview": "Översikt",
+      "gallery": "Galleri",
+      "reviews": "Recensioner"
+    },
+    "contactForm": {
+      "title": "Kontakt",
+      "name": "Namn",
+      "namePlaceholder": "Ditt namn",
+      "email": "E-post",
+      "emailPlaceholder": "Din e-post",
+      "message": "Meddelande",
+      "messagePlaceholder": "Beskriv ditt evenemang...",
+      "cancel": "Avbryt",
+      "send": "Skicka"
+    },
+    "priceRange": {
+      "budget": "Budget",
+      "mid-range": "Mellanklass",
+      "premium": "Premium"
+    },
+    "availability": {
+      "available": "Tillgänglig",
+      "busy": "Upptagen",
+      "unavailable": "Inte Tillgänglig"
+    },
+    "coverageArea": {
+      "local": "Lokal",
+      "regional": "Regional",
+      "national": "Nationell"
+    }
+  },
+  "header": {
+    "logoTitle": "Eveo - Evenemangshanteringsplattform",
+    "logoAlt": "Eveo Logo - Evenemangshanteringsplattform"
+  }
+}

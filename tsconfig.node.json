@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["worker-configuration.d.ts", "vite.config.ts"],
+  "compilerOptions": {
+    "composite": true,
+    "strict": true,
+    "types": ["node"],
+    "lib": ["ES2022"],
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "rootDirs": ["./worker", "./.react-router/types"]
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "hero": {
+    "title": "La piattaforma per trovare",
+    "titleHighlight": "i migliori fornitori per il tuo evento",
+    "subtitle": "Eveo è il marketplace che unisce organizzatori di eventi e fornitori. Trova tutto quello che ti serve per il tuo evento perfetto, tutto in un unico posto.",
+    "organizerTitle": "Stai Organizzando un Evento?",
+    "organizerSubtitle": "Trova fornitori verificati per catering, location, intrattenimento e molto altro",
+    "organizerCta": "Inizia come Organizzatore",
+    "supplierTitle": "Sei un Fornitore?",
+    "supplierSubtitle": "Unisciti alla nostra rete e connettiti con organizzatori che cercano i tuoi servizi",
+    "supplierCta": "Iscriviti come Fornitore"
+  },
+  "howItWorks": {
+    "title": "Come Funziona Eveo",
+    "subtitle": "Tre semplici passaggi per connetterti con i fornitori perfetti per il tuo evento",
+    "step1Title": "1. Descrivi le Tue Esigenze",
+    "step1Desc": "Descrivi il tuo evento, budget e requisiti. Il nostro sistema intelligente capirà esattamente cosa stai cercando.",
+    "step2Title": "2. Trova i Match Perfetti",
+    "step2Desc": "Ricevi raccomandazioni personalizzate da fornitori verificati che corrispondono perfettamente ai tuoi criteri e budget.",
+    "step3Title": "3. Prenota & Festeggia",
+    "step3Desc": "Confronta i preventivi, prenota i tuoi fornitori preferiti e goditi il tuo evento perfettamente organizzato in tutta tranquillità."
+  },
+  "testimonials": {
+    "title": "Cosa Dicono i Nostri Utenti del Nostro Lancio Beta",
+    "subtitle": "Unisciti a migliaia di organizzatori di eventi e fornitori soddisfatti",
+    "review1": "Eveo ha reso l'organizzazione del nostro evento aziendale incredibilmente facile. Abbiamo trovato la location e il catering perfetti in un solo pomeriggio!",
+    "reviewer1Name": "Marco R.",
+    "reviewer1Role": "Event Manager",
+    "review2": "Come fotografa, Eveo mi ha connessa con clienti fantastici. La piattaforma è professionale e facile da usare.",
+    "reviewer2Name": "Sofia B.",
+    "reviewer2Role": "Fotografa",
+    "review3": "La qualità dei fornitori su Eveo è eccezionale. Abbiamo organizzato 5 eventi attraverso la piattaforma con risultati perfetti.",
+    "reviewer3Name": "Luca V.",
+    "reviewer3Role": "Direttore HR",
+    "review4": "Ho trovato il DJ perfetto per l'inagurazione del mio negozio tramite Eveo. Il processo di prenotazione è stato fluido e senza stress.",
+    "reviewer4Name": "Elena C.",
+    "reviewer4Role": "Artigiana",
+    "review5": "Come catering, Eveo ha triplicato le mie prenotazioni. I clienti sono seri e la piattaforma gestisce tutto senza problemi.",
+    "reviewer5Name": "Antonio M.",
+    "reviewer5Role": "Chef & Catering",
+    "review6": "Eveo ci ha aiutato a organizzare la conferenza annuale della nostra azienda. Tutto è stato perfetto dall'inizio alla fine.",
+    "reviewer6Name": "Davide K.",
+    "reviewer6Role": "Operations Manager",
+    "review7": "Le raccomandazioni per la location sono state perfette per il nostro lancio prodotto. Ci ha fatto risparmiare settimane di ricerca!",
+    "reviewer7Name": "Giulia L.",
+    "reviewer7Role": "Direttore Marketing",
+    "review8": "Come fiorista, ho trovato opportunità di eventi fantastici attraverso Eveo. La piattaforma funziona davvero!",
+    "reviewer8Name": "Maria S.",
+    "reviewer8Role": "Floral Designer",
+    "review9": "La rete di fornitori di Eveo è incredibile. Non abbiamo mai avuto un coordinamento eventi così fluido prima d'ora.",
+    "reviewer9Name": "Roberto T.",
+    "reviewer9Role": "Coordinatore Eventi"
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "subtitle": "Tutto quello che devi sapere su Eveo",
+    "q1": "Come funziona Eveo?",
+    "a1": "Semplicemente descrivi le tue esigenze per l'evento e ti metteremo in contatto con fornitori verificati che corrispondono ai tuoi requisiti e budget. Puoi confrontare i preventivi e prenotare direttamente attraverso la nostra piattaforma.",
+    "q2": "Eveo è gratuito?",
+    "a2": "Sì! Gli organizzatori di eventi possono usare Eveo completamente gratis. I Fornitori pagano un abbonamento su base mensile o annuale per essere presenti sulla piattaforma e usufruire di tutti i servizi.",
+    "q3": "Come vengono verificati i fornitori?",
+    "a3": "Tutti i fornitori passano attraverso un rigoroso processo di verifica che include controlli della licenza commerciale, verifica dell'assicurazione e revisione del portfolio. Inoltre monitoriamo continuamente le performance e i feedback dei clienti.",
+    "q4": "Che tipi di eventi supportate?",
+    "a4": "Supportiamo tutti i tipi di eventi, dagli eventi privati ai grandi raduni aziendali. I nostri fornitori coprono tutto, dalle location e catering all'intrattenimento e servizi tecnici."
+  },
+  "features": {
+    "title": "Perché Scegliere Eveo?",
+    "subtitle": "Rendiamo l'organizzazione di eventi semplice connettendoti con i fornitori giusti",
+    "perfectMatch": "Match Perfetti",
+    "perfectMatchDesc": "Il nostro algoritmo di matching intelligente ti connette con i fornitori che si adattano esattamente alle tue esigenze e budget",
+    "lightning": "Veloce, in poche ore",
+    "lightningDesc": "Ottieni preventivi e risposte da più fornitori in poche ore, non giorni",
+    "verified": "Qualità Verificata",
+    "verifiedDesc": "Tutti i fornitori sono verificati e valutati dalla nostra community per la tua tranquillità"
+  },
+  "stats": {
+    "title": "Unisciti a Centinaia di Utenti Felici",
+    "events": "Eventi Organizzati",
+    "suppliers": "Fornitori Verificati",
+    "categories": "Categorie di Servizi",
+    "successRate": "Tasso di Successo"
+  },
+  "finalCta": {
+    "title": "Pronto a Trasformare i Tuoi Eventi?",
+    "subtitle": "Unisciti a Eveo oggi e scopri il futuro dell'organizzazione eventi",
+    "cta": "Registra il tuo interesse"
+  },
+  "footer": {
+    "tagline": "Connettendo eventi con fornitori perfetti, una celebrazione alla volta.",
+    "copyright": "Tutti i diritti riservati.",
+    "privacyPolicy": "Informativa sulla Privacy"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "organizerTitle": "Ottieni le Tue Risorse Gratuite",
+    "contactInfo": "Informazioni di Contatto",
+    "eventInfo": "Informazioni Eventi",
+    "serviceInfo": "Informazioni Servizi",
+    "firstName": "Nome",
+    "lastName": "Cognome",
+    "companyName": "Nome Azienda",
+    "companyNameOptional": "Nome Azienda (opzionale)",
+    "companyNameRequired": "Nome Azienda *",
+    "optional": "(opzionale)",
+    "required": "(*)",
+    "email": "Email",
+    "phone": "Telefono",
+    "eventTypeQuestion": "Che tipo di eventi organizzi?",
+    "eventTypePersonal": "Personali",
+    "eventTypeBusiness": "Aziendali",
+    "eventTypeBoth": "Entrambi",
+    "serviceTypeQuestion": "Che tipo di servizi offri?",
+    "serviceHotel": "Hotel e strutture ricettive",
+    "servicePhotoVideo": "Photo & video making",
+    "serviceCatering": "Catering",
+    "serviceMerchandise": "Merchandise e forniture da ufficio",
+    "serviceAudioVideo": "Audio & Video service",
+    "serviceDj": "DJ",
+    "serviceTransport": "Transfer & Noleggio veicoli",
+    "serviceLeisure": "Attività Leisure & Esperienze",
+    "serviceConsulting": "Consulenza Marketing, Design, Grafica",
+    "serviceOther": "Altro",
+    "continue": "Continua",
+    "back": "Indietro",
+    "submit": "Invia",
+    "downloadResources": "Scarica Risorse Gratuite",
+    "downloadResourcesOrganizer": "Scarica Risorse",
+    "requiredMark": "*",
+    "errorFillFields": "Compila tutti i campi obbligatori",
+    "errorCompanyRequired": "Il nome dell'azienda è obbligatorio per i fornitori",
+    "errorEventType": "Seleziona il tipo di eventi che organizzi",
+    "errorServiceType": "Seleziona almeno un tipo di servizio che offri",
+    "successTitle": "Grazie per la registrazione!",
+    "successMessage": "Ti contatteremo presto con maggiori informazioni.",
+    "error": "Errore",
+    "fillPersonalInfo": "Inserisci le tue informazioni personali",
+    "fillEventInfo": "Raccontaci del tuo evento",
+    "fillServiceInfo": "Seleziona i servizi che offri",
+    "pdfGuide": "Guida PDF all'organizzazione eventi",
+    "excelSheet": "Foglio Excel per gestione preventivi"
+  },
+  "cookieConsent": {
+    "accept": "Accetta",
+    "message": "Questo sito web utilizza i cookie per migliorare la tua esperienza utente e fornire contenuti personalizzati."
+  },
+  "nav": {
+    "howItWorks": "Come Funziona",
+    "features": "Caratteristiche",
+    "testimonials": "Testimonianze",
+    "faq": "FAQ"
+  },
+  "categories": {
+    "title": "Esplora le Categorie",
+    "subtitle": "Trova i fornitori perfetti per il tuo evento in ogni categoria",
+    "viewAll": "Visualizza Tutti i Fornitori",
+    "hotels-venues": "Hotel e Strutture Ricettive",
+    "equipment-supplies": "Merchandise e Forniture",
+    "catering": "Catering",
+    "restaurants": "Ristoranti",
+    "training-coaching": "Formazione e Coaching",
+    "audio-video": "Audio e Video",
+    "dj-services": "Servizi DJ",
+    "marketing-design": "Marketing e Design",
+    "photography-video": "Fotografia e Video",
+    "transportation": "Trasporti",
+    "travel-tours": "Viaggi e Tour",
+    "leisure-experiences": "Tempo Libero ed Esperienze"
+  },
+  "vendors": {
+    "title": "Trova i Migliori Fornitori",
+    "subtitle": "Scopri fornitori verificati per il tuo evento perfetto",
+    "searchPlaceholder": "Cerca fornitori, servizi, località...",
+    "filters": "Filtri",
+    "clearFilters": "Cancella",
+    "category": "Categoria",
+    "allCategories": "Tutte le categorie",
+    "location": "Località",
+    "locationPlaceholder": "Città o regione",
+    "priceRange": "Fascia di prezzo",
+    "minRating": "Valutazione minima",
+    "verifiedOnly": "Solo fornitori verificati",
+    "resultsCount": "{{count}} fornitori trovati",
+    "sortByRating": "Valutazione",
+    "sortByReviews": "Recensioni",
+    "sortByName": "Nome",
+    "sortByNewest": "Più recenti",
+    "noResults": "Nessun fornitore trovato",
+    "noResultsDescription": "Prova a modificare i filtri o la ricerca"
+  },
+  "vendor": {
+    "verified": "Verificato",
+    "contact": "Contatta",
+    "viewProfile": "Vedi Profilo",
+    "responseTime": "Risponde in",
+    "notFound": "Fornitore non trovato",
+    "backToCatalog": "Torna al catalogo",
+    "share": "Condividi",
+    "requestQuote": "Richiedi Preventivo",
+    "contactInfo": "Informazioni di Contatto",
+    "website": "Sito Web",
+    "services": "Servizi Offerti",
+    "languages": "Lingue Parlate",
+    "aboutUs": "Chi Siamo",
+    "whyChooseUs": "Perché Sceglierci",
+    "gallery": "Galleria Foto",
+    "reviews": "Recensioni",
+    "tabs": {
+      "overview": "Panoramica",
+      "gallery": "Galleria",
+      "reviews": "Recensioni"
+    },
+    "contactForm": {
+      "title": "Contatta",
+      "name": "Nome",
+      "namePlaceholder": "Il tuo nome",
+      "email": "Email",
+      "emailPlaceholder": "La tua email",
+      "message": "Messaggio",
+      "messagePlaceholder": "Descrivi il tuo evento...",
+      "cancel": "Annulla",
+      "send": "Invia"
+    },
+    "priceRange": {
+      "budget": "Economico",
+      "mid-range": "Medio",
+      "premium": "Premium"
+    },
+    "availability": {
+      "available": "Disponibile",
+      "busy": "Occupato",
+      "unavailable": "Non disponibile"
+    },
+    "coverageArea": {
+      "local": "Locale",
+      "regional": "Regionale",
+      "national": "Nazionale"
+    }
+  },
+  "metadata": {
+    "slogan": "Eveo | Marketplace Eventi per Organizzatori e Fornitori",
+    "description": "Eveo è il marketplace che unisce organizzatori di eventi e fornitori. Trova tutto quello che ti serve per il tuo evento perfetto, tutto in un unico posto.",
+    "keywords": "marketplace eventi, organizzatori eventi, fornitori eventi, prenotazione venue, servizi catering, pianificazione eventi, gestione eventi",
+    "tagline": "Collegare eventi con fornitori perfetti, una celebrazione alla volta."
+  },
+  "notFound": {
+    "title": "404 - Pagina non trovata",
+    "heading": "404",
+    "message": "Ops! Pagina non trovata",
+    "returnHome": "Torna alla home"
+  },
+  "privacy": {
+    "title": "Informativa sulla Privacy",
+    "subtitle": "INFORMATIVA SUL TRATTAMENTO DEI DATI PERSONALI AI SENSI DELL'ART. 13 DEL REGOLAMENTO UE 679/2016",
+    "description": "Informativa sulla privacy di Eveo - Scopri come proteggiamo i tuoi dati personali",
+    "lastUpdate": "Ultimo aggiornamento",
+    "backToHome": "Torna alla Home",
+    "controller": {
+      "title": "Titolare del Trattamento",
+      "content": "Il Titolare del trattamento è Eveo S.r.l., con sede legale in {{address}}, rappresentata dal suo legale rappresentante pro tempore (di seguito anche il \"Titolare\"). Per qualsiasi richiesta o informazione, puoi contattarci all'indirizzo email: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>."
+    },
+    "dataTypes": {
+      "title": "Tipologie di Dati Trattati",
+      "voluntaryData": {
+        "title": "Dati forniti volontariamente dall'utente tramite i form su www.eveo.it",
+        "name": "Nome (obbligatorio)",
+        "surname": "Cognome (facoltativo)",
+        "company": "Nome Azienda (facoltativo)",
+        "email": "Email (obbligatorio)",
+        "phone": "Numero di telefono (facoltativo)"
+      },
+      "automaticData": {
+        "title": "Dati raccolti automaticamente",
+        "ip": "Indirizzo IP",
+        "datetime": "Data e ora di accesso",
+        "cookies": "Cookie tecnici (vedi informativa cookie separata)",
+        "noProfileInfo": "Nessun dato raccolto automaticamente viene utilizzato per identificare direttamente l'utente o per attività di profilazione."
+      }
+    },
+    "purposes": {
+      "title": "Finalità del Trattamento e Base Giuridica",
+      "waitingList": "Creazione di una lista d'attesa per utenti e fornitori interessati a ricevere preventivi per l'organizzazione di eventi - base giuridica: esecuzione di misure precontrattuali ai sensi dell'art. 6, par. 1, lett. b) GDPR",
+      "marketing": "Invio di aggiornamenti e comunicazioni promozionali via email - base giuridica: consenso dell'interessato (art. 6, par. 1, lett. a) GDPR)",
+      "analytics": "Analisi aggregata del traffico web tramite cookie statistici - base giuridica: consenso dell'interessato (vedi cookie policy)."
+    },
+    "dataProvision": {
+      "title": "Natura del Conferimento dei Dati",
+      "content": "Il conferimento dei dati contrassegnati con asterisco (*) è obbligatorio per essere contattati o registrati nella lista d'attesa. Il mancato conferimento di tali dati renderà impossibile fornire riscontro o aggiornamenti. Il consenso per finalità promozionali è facoltativo e può essere revocato in qualsiasi momento."
+    },
+    "processingMethods": {
+      "title": "Modalità di Trattamento",
+      "content": "I dati sono trattati mediante strumenti elettronici e manuali nel rispetto dei principi di riservatezza, integrità e disponibilità, con adeguate misure tecniche e organizzative (art. 32 GDPR)."
+    },
+    "dataRecipients": {
+      "title": "Destinatari dei Dati",
+      "employees": "Dipendenti e collaboratori autorizzati del Titolare",
+      "providers": "Fornitori di servizi IT e hosting (responsabili del trattamento)",
+      "authorities": "Enti pubblici solo nei casi previsti dalla legge",
+      "listAvailable": "L'elenco aggiornato dei responsabili è disponibile su richiesta."
+    },
+    "dataRetention": {
+      "title": "Conservazione dei Dati",
+      "contactData": "Dati per finalità di contatto o lista d'attesa: fino a 12 mesi dalla raccolta",
+      "consentData": "Dati trattati sulla base del consenso: fino alla revoca o, al massimo, 2 anni",
+      "navigationData": "Dati di navigazione: per il tempo necessario a garantire il funzionamento del sito"
+    },
+    "userRights": {
+      "title": "Diritti dell'Interessato",
+      "intro": "Ai sensi degli articoli 15-22 del GDPR, l'utente ha diritto di:",
+      "access": "Accedere ai propri dati",
+      "rectification": "Chiederne la rettifica o la cancellazione",
+      "objection": "Opporsi al trattamento",
+      "portability": "Ottenere la portabilità dei dati",
+      "withdraw": "Revocare il consenso in qualsiasi momento",
+      "complaint": "Proporre reclamo all'Autorità di controllo",
+      "contact": "Per esercitare i tuoi diritti: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>"
+    },
+    "transfers": {
+      "title": "Trasferimenti Internazionali",
+      "content": "I dati non saranno trasferiti al di fuori dello Spazio Economico Europeo."
+    },
+    "cookies": {
+      "title": "Informativa sui Cookie",
+      "description": "Ultimo aggiornamento: 03/07/2025",
+      "whatAre": {
+        "title": "Cosa sono i cookie?",
+        "content": "I cookie sono piccoli file di testo che i siti web possono salvare sul tuo dispositivo (PC, smartphone, tablet) per rendere più efficiente la tua esperienza di navigazione."
+      },
+      "typesUsed": {
+        "title": "Tipologie di cookie utilizzati su eveo.it",
+        "content": "Questo sito utilizza solo cookie tecnici e statistici anonimi:"
+      },
+      "table": {
+        "name": "Nome",
+        "purpose": "Finalità",
+        "duration": "Durata",
+        "type": "Tipo"
+      },
+      "cookieConsent": {
+        "purpose": "Memorizza lo stato del consenso ai cookie",
+        "duration": "1 anno"
+      },
+      "analytics": {
+        "purpose": "Rilevazione statistiche aggregate Google Analytics (anonimizzate)",
+        "duration": "max 2 anni"
+      },
+      "cookiebot": {
+        "purpose": "Ottimizzazione CMP e consenso",
+        "duration": "Sessione"
+      },
+      "noProfilingCookies": "Non vengono utilizzati cookie di profilazione o pubblicitari.",
+      "purposes": {
+        "title": "Finalità del trattamento",
+        "technical": "Garantire il corretto funzionamento del sito (cookie tecnici)",
+        "analytics": "Raccogliere dati statistici anonimi sull'utilizzo del sito, utili per migliorare l'esperienza utente"
+      },
+      "legalBasis": {
+        "title": "Base giuridica",
+        "content": "Per i cookie tecnici non è richiesto il consenso. Per i cookie statistici anonimizzati (es. Google Analytics con IP anonimizzato), il consenso non è obbligatorio secondo le Linee Guida del Garante Privacy."
+      },
+      "consent": {
+        "title": "Gestione del consenso",
+        "content": "Puoi modificare o revocare il tuo consenso in qualsiasi momento cliccando sul banner dei cookie in fondo al sito o accedendo alle impostazioni del tuo browser."
+      }
+    },
+    "contact": {
+      "title": "Contatti e Titolare",
+      "content": "Per qualsiasi informazione relativa al trattamento dei dati tramite cookie, puoi contattare:",
+      "email": "info@eveo.it"
+    }
+  },
+  "bonusResources": {
+    "limitedTime": "Disponibili per tempo limitato!",
+    "title": "2 Risorse Gratuite per gli Organizzatori di Eventi",
+    "subtitle": "Ottieni strumenti professionali gratuiti per organizzare eventi perfetti",
+    "guide": {
+      "title": "Guida Completa all'Organizzazione Eventi",
+      "description": "In questo PDF troverai tutte le strategie sull'organizzazione di eventi. Scopri anche dei trucchi per risparmiare fino al 40%!"
+    },
+    "spreadsheet": {
+      "title": "Foglio di Calcolo Gestionale",
+      "description": "Uno strumento Excel professionale per confrontare preventivi, gestire budget e tenere traccia di tutti i fornitori. Perfetto per analisi comparative e controllo costi."
+    },
+    "free": "Gratuito",
+    "downloadButton": "Scarica Risorse Gratuite"
+  },
+  "header": {
+    "logoTitle": "Eveo - Piattaforma di Gestione Eventi",
+    "logoAlt": "Logo Eveo - Piattaforma di Gestione Eventi"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": ".",
+    "types": ["@react-router/node", "vite/client", "./worker-configuration.d.ts"],
+    "rootDirs": [".", "./.react-router/types"]
+  },
+  "include": ["app", "worker", ".react-router/types/**/*", "app/vite-env.d.ts"],
+  "exclude": ["eslint.config.ts", "node_modules"]
+}

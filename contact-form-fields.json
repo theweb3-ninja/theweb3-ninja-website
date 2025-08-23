@@ -1,0 +1,9 @@
+{
+  "FirstName": "string maxLength 60",
+  "LastName": "string maxLength 60",
+  "CompanyName": "string maxLength 125",
+  "EmailAddress": "email maxLength 125",
+  "Phone": "number maxLength 125",
+  "EventType": "string maxLength 125, serialized to separate multiple EventTypes",
+  "ServiceTypes": "string maxLength 125, serialized to separate multiple ServiceTypes"
+}

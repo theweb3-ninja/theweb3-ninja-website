@@ -1,0 +1,328 @@
+{
+  "hero": {
+    "title": "Platforma pentru a găsi",
+    "titleHighlight": "cei mai buni furnizori pentru evenimentul tău",
+    "subtitle": "Eveo este marketplace-ul care reunește organizatori de evenimente și furnizori. Găsește tot ce ai nevoie pentru evenimentul tău perfect, totul într-un singur loc.",
+    "organizerTitle": "Organizezi un Eveniment?",
+    "organizerSubtitle": "Găsește furnizori verificați pentru catering, locații, divertisment și multe altele",
+    "organizerCta": "Începe ca Organizator",
+    "supplierTitle": "Ești Furnizor?",
+    "supplierSubtitle": "Alătură-te rețelei noastre și conectează-te cu organizatori care caută serviciile tale",
+    "supplierCta": "Înscrie-te ca Furnizor"
+  },
+  "howItWorks": {
+    "title": "Cum Funcționează Eveo",
+    "subtitle": "Trei pași simpli pentru a te conecta cu furnizori perfecți pentru evenimentul tău",
+    "step1Title": "1. Descrie Nevoile Tale",
+    "step1Desc": "Descrie evenimentul, bugetul și cerințele tale. Sistemul nostru inteligent va înțelege exact ce cauți.",
+    "step2Title": "2. Găsește Potriviri Perfecte",
+    "step2Desc": "Primește recomandări personalizate de la furnizori verificați care se potrivesc perfect cu criteriile și bugetul tău.",
+    "step3Title": "3. Rezervă și Sărbătorește",
+    "step3Desc": "Compară ofertele, rezervă furnizorii preferați și bucură-te de evenimentul tău perfect organizat cu liniște sufletească."
+  },
+  "testimonials": {
+    "title": "Ce Spun Utilizatorii Noștri Despre Lansarea Beta",
+    "subtitle": "Alătură-te miilor de organizatori de evenimente și furnizori mulțumiți",
+    "review1": "Eveo a făcut organizarea evenimentului nostru corporativ incredibil de ușoară. Am găsit locația și cateringul perfect într-o singură după-amiază!",
+    "reviewer1Name": "Mark R.",
+    "reviewer1Role": "Manager de Evenimente",
+    "review2": "Ca fotograf, Eveo m-a conectat cu clienți fantastici. Platforma este profesionistă și ușor de utilizat.",
+    "reviewer2Name": "Sarah B.",
+    "reviewer2Role": "Fotograf",
+    "review3": "Calitatea furnizorilor de pe Eveo este excepțională. Am organizat 5 evenimente prin intermediul platformei cu rezultate perfecte.",
+    "reviewer3Name": "Luke V.",
+    "reviewer3Role": "Director HR",
+    "review4": "Am găsit DJ-ul perfect pentru deschiderea magazinului meu prin Eveo. Procesul de rezervare a fost simplu și fără stres.",
+    "reviewer4Name": "Emily C.",
+    "reviewer4Role": "Artizană",
+    "review5": "Ca furnizor de catering, Eveo mi-a triplat rezervările. Clienții sunt serioși și platforma gestionează totul fără probleme.",
+    "reviewer5Name": "Antonio M.",
+    "reviewer5Role": "Bucătar & Furnizor de Catering",
+    "review6": "Eveo ne-a ajutat să organizăm conferința anuală a companiei. Totul a fost perfect de la început până la sfârșit.",
+    "reviewer6Name": "David K.",
+    "reviewer6Role": "Manager de Operațiuni",
+    "review7": "Recomandările pentru locații au fost perfecte pentru lansarea produsului nostru. Ne-a economisit săptămâni de cercetare!",
+    "reviewer7Name": "Jennifer L.",
+    "reviewer7Role": "Director de Marketing",
+    "review8": "Ca florar, am găsit oportunități de evenimente uimitoare prin Eveo. Platforma chiar funcționează!",
+    "reviewer8Name": "Maria S.",
+    "reviewer8Role": "Designer Floral",
+    "review9": "Rețeaua de furnizori Eveo este incredibilă. Nu am avut niciodată o coordonare atât de bună a evenimentelor.",
+    "reviewer9Name": "Robert T.",
+    "reviewer9Role": "Coordonator de Evenimente"
+  },
+  "faq": {
+    "title": "Întrebări Frecvente",
+    "subtitle": "Tot ce trebuie să știi despre Eveo",
+    "q1": "Cum funcționează Eveo?",
+    "a1": "Descrie simplu nevoile evenimentului tău și te vom conecta cu furnizori verificați care se potrivesc cerințelor și bugetului tău. Poți compara oferte și rezerva direct prin platforma noastră.",
+    "q2": "Este Eveo gratuit?",
+    "a2": "Da! Organizatorii de evenimente pot folosi Eveo complet gratuit. Furnizorii plătesc un abonament lunar sau anual pentru a fi prezenți pe platformă și pentru a utiliza toate serviciile.",
+    "q3": "Cum sunt verificați furnizorii?",
+    "a3": "Toți furnizorii trec printr-un proces riguros de verificare care include verificarea licenței de afaceri, verificarea asigurării și revizuirea portofoliului. De asemenea, monitorizăm continuu performanța și feedback-ul clienților.",
+    "q4": "Ce tipuri de evenimente susțineți?",
+    "a4": "Susținem toate tipurile de evenimente, de la evenimente private până la întâlniri corporative mari. Furnizorii noștri acoperă totul, de la locații și catering până la divertisment și servicii tehnice."
+  },
+  "features": {
+    "title": "De Ce Să Alegi Eveo?",
+    "subtitle": "Facem organizarea evenimentelor simplă conectându-te cu furnizorii potriviți",
+    "perfectMatch": "Potriviri Perfecte",
+    "perfectMatchDesc": "Algoritmul nostru inteligent de potrivire te conectează cu furnizori care se potrivesc exact nevoilor și bugetului tău",
+    "lightning": "Rapid ca Fulgerul",
+    "lightningDesc": "Obține oferte și răspunsuri de la mai mulți furnizori în ore, nu zile",
+    "verified": "Calitate Verificată",
+    "verifiedDesc": "Toți furnizorii sunt verificați și evaluați de comunitatea noastră pentru liniștea ta sufletească"
+  },
+  "stats": {
+    "title": "Alătură-te Sutelor de Utilizatori Mulțumiți",
+    "events": "Evenimente Organizate",
+    "suppliers": "Furnizori Verificați",
+    "categories": "Categorii de Servicii",
+    "successRate": "Rata de Succes"
+  },
+  "finalCta": {
+    "title": "Gata să Îți Transformi Evenimentele?",
+    "subtitle": "Alătură-te Eveo astăzi și descoperă viitorul organizării de evenimente",
+    "cta": "Înregistrează-ți Interesul"
+  },
+  "footer": {
+    "tagline": "Conectăm evenimente cu furnizori perfecți, o celebrare pe rând.",
+    "copyright": "Toate drepturile rezervate.",
+    "privacyPolicy": "Politica de Confidențialitate"
+  },
+  "contact": {
+    "title": "Contactează-ne",
+    "organizerTitle": "Obține Resursele Tale Gratuite",
+    "contactInfo": "Informații de Contact",
+    "eventInfo": "Informații despre Eveniment",
+    "serviceInfo": "Informații despre Servicii",
+    "firstName": "Prenume",
+    "lastName": "Nume",
+    "companyName": "Numele Companiei",
+    "companyNameOptional": "Numele Companiei (opțional)",
+    "companyNameRequired": "Numele Companiei *",
+    "optional": "(opțional)",
+    "required": "(*)",
+    "email": "Email",
+    "phone": "Telefon",
+    "eventTypeQuestion": "Ce tip de evenimente organizezi?",
+    "eventTypePersonal": "Personale",
+    "eventTypeBusiness": "De afaceri",
+    "eventTypeBoth": "Ambele",
+    "serviceTypeQuestion": "Ce tip de servicii oferi?",
+    "serviceHotel": "Hoteluri și cazare",
+    "servicePhotoVideo": "Foto & video",
+    "serviceCatering": "Catering",
+    "serviceMerchandise": "Produse promoționale și rechizite de birou",
+    "serviceAudioVideo": "Servicii Audio & Video",
+    "serviceDj": "DJ",
+    "serviceTransport": "Transfer & Închirieri auto",
+    "serviceLeisure": "Activități de relaxare & Experiențe",
+    "serviceConsulting": "Consultanță în Marketing, Design, Grafică",
+    "serviceOther": "Altele",
+    "continue": "Continuă",
+    "back": "Înapoi",
+    "submit": "Trimite",
+    "downloadResources": "Descărcă Resurse Gratuite",
+    "downloadResourcesOrganizer": "Descarcă Resurse",
+    "requiredMark": "*",
+    "errorFillFields": "Te rugăm să completezi toate câmpurile obligatorii",
+    "errorCompanyRequired": "Numele companiei este obligatoriu pentru furnizori",
+    "errorEventType": "Te rugăm să selectezi tipul de evenimente pe care le organizezi",
+    "errorServiceType": "Te rugăm să selectezi cel puțin un tip de serviciu pe care îl oferi",
+    "successTitle": "Îți mulțumim pentru înregistrare!",
+    "successMessage": "Te vom contacta în curând cu mai multe informații.",
+    "error": "Eroare",
+    "fillPersonalInfo": "Te rugăm să completezi informațiile personale",
+    "fillEventInfo": "Te rugăm să ne spui despre evenimentul tău",
+    "fillServiceInfo": "Te rugăm să selectezi serviciile pe care le oferi",
+    "pdfGuide": "Ghid PDF pentru organizarea evenimentelor",
+    "excelSheet": "Fișă Excel pentru gestionarea ofertelor"
+  },
+  "cookieConsent": {
+    "accept": "Accept",
+    "message": "Acest site web utilizează cookie-uri pentru a îmbunătăți experiența dumneavoastră de utilizator și pentru a oferi conținut personalizat."
+  },
+  "nav": {
+    "howItWorks": "Cum Funcționează",
+    "features": "Caracteristici",
+    "testimonials": "Mărturii",
+    "faq": "FAQ"
+  },
+  "categories": {
+    "title": "Răsfoiește pe Categorii",
+    "subtitle": "Găsește cei mai potriviți furnizori pentru evenimentul tău",
+    "viewAll": "Vezi Toate Categoriile",
+    "hotels-venues": "Hoteluri și Cazări",
+    "hotels-venues-desc": "Găsește cele mai bune hoteluri și spații pentru evenimentul tău",
+    "equipment-supplies": "Marfă și Echipamente",
+    "equipment-supplies-desc": "Găsește cele mai bune echipamente și materiale pentru evenimentul tău",
+    "catering": "Catering",
+    "catering-desc": "Găsește cele mai bune servicii de catering pentru evenimentul tău",
+    "restaurants": "Restaurante",
+    "restaurants-desc": "Găsește cele mai bune restaurante pentru evenimentul tău",
+    "training-coaching": "Instruire și Coaching",
+    "training-coaching-desc": "Găsește cele mai bune servicii de instruire și coaching pentru evenimentul tău",
+    "audio-video": "Audio și Video",
+    "audio-video-desc": "Găsește cele mai bune servicii audio și video pentru evenimentul tău",
+    "dj-services": "Servicii DJ",
+    "dj-services-desc": "Găsește cele mai bune servicii DJ pentru evenimentul tău",
+    "marketing-design": "Marketing și Design",
+    "marketing-design-desc": "Găsește cele mai bune servicii de marketing și design pentru evenimentul tău",
+    "photography-video": "Fotografie și Video",
+    "photography-video-desc": "Găsește cele mai bune servicii de fotografie și video pentru evenimentul tău",
+    "transportation": "Transport",
+    "transportation-desc": "Găsește cele mai bune servicii de transport pentru evenimentul tău",
+    "travel-tours": "Călătorii și Tururi",
+    "travel-tours-desc": "Găsește cele mai bune servicii de călătorii și tururi pentru evenimentul tău",
+    "leisure-experiences": "Timp Liber și Experiențe",
+    "leisure-experiences-desc": "Găsește cele mai bune servicii de timp liber și experiențe pentru evenimentul tău"
+  },
+  "metadata": {
+    "slogan": "Eveo | Marketplace Evenimente pentru Organizatori și Furnizori",
+    "description": "Eveo este marketplace-ul care reunește organizatori de evenimente și furnizori. Găsește tot ce ai nevoie pentru evenimentul tău perfect, totul într-un singur loc.",
+    "keywords": "event marketplace, event organizers, event suppliers, venue booking, catering services, event planning, event management",
+    "tagline": "Conectăm evenimente cu furnizori perfecți, o celebrare pe rând."
+  },
+  "notFound": {
+    "title": "404 - Pagina nu a fost găsită",
+    "heading": "404",
+    "message": "Ups! Pagina nu a fost găsită",
+    "returnHome": "Înapoi la pagina principală"
+  },
+  "privacy": {
+    "title": "Politica de Confidențialitate",
+    "subtitle": "INFORMAȚII PRIVIND PRELUCRAREA DATELOR CU CARACTER PERSONAL ÎN CONFORMITATE CU ART. 13 DIN REGULAMENTUL UE 679/2016",
+    "description": "Politica de confidențialitate Eveo - Aflați cum protejăm datele dvs. personale",
+    "lastUpdate": "Ultima actualizare",
+    "backToHome": "Înapoi la pagina principală",
+    "controller": {
+      "title": "Responsabilul Prelucrării",
+      "content": "Responsabilul prelucrării este Eveo S.r.l., cu sediul în {{address}}, reprezentată de reprezentantul său legal pro tempore (denumit în continuare și \"Responsabilul\"). Pentru orice solicitare sau informație, ne puteți contacta la adresa de e-mail: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>."
+    },
+    "dataTypes": {
+      "title": "Tipuri de Date Prelucrate",
+      "voluntaryData": {
+        "title": "Date furnizate voluntar de utilizator prin formulare pe www.eveo.it",
+        "name": "Nume (obligatoriu)",
+        "surname": "Prenume (opțional)",
+        "company": "Numele companiei (opțional)",
+        "email": "E-mail (obligatoriu)",
+        "phone": "Număr de telefon (opțional)"
+      },
+      "automaticData": {
+        "title": "Date colectate automat",
+        "ip": "Adresă IP",
+        "datetime": "Data și ora accesului",
+        "cookies": "Cookie-uri tehnice (vezi politica separată privind cookie-urile)",
+        "noProfileInfo": "Nicio dată colectată automat nu este utilizată pentru a identifica direct utilizatorul sau pentru activități de profilare."
+      }
+    },
+    "purposes": {
+      "title": "Scopurile Prelucrării și Baza Juridică",
+      "waitingList": "Crearea unei liste de așteptare pentru utilizatorii și furnizorii interesați să primească oferte pentru organizarea de evenimente - baza juridică: executarea măsurilor precontractuale în conformitate cu art. 6, alin. 1, litera b) GDPR",
+      "marketing": "Trimiterea de actualizări și comunicări promoționale prin e-mail - baza juridică: consimțământul persoanei vizate (art. 6, alin. 1, litera a) GDPR)",
+      "analytics": "Analiza agregată a traficului web prin cookie-uri statistice - baza juridică: consimțământul persoanei vizate (vezi politica cookie-urilor)."
+    },
+    "dataProvision": {
+      "title": "Natura Furnizării Datelor",
+      "content": "Furnizarea datelor marcate cu un asterisc (*) este obligatorie pentru a fi contactat sau înregistrat pe lista de așteptare. Nefurnizarea acestor date va face imposibilă furnizarea unui răspuns sau a actualizărilor. Consimțământul în scopuri promoționale este opțional și poate fi revocat în orice moment."
+    },
+    "processingMethods": {
+      "title": "Metode de Prelucrare",
+      "content": "Datele sunt prelucrate electronic și manual cu respectarea principiilor de confidențialitate, integritate și disponibilitate, cu măsuri tehnice și organizaționale adecvate (art. 32 GDPR)."
+    },
+    "dataRecipients": {
+      "title": "Destinatarii Datelor",
+      "employees": "Angajați și colaboratori autorizați ai Responsabilului",
+      "providers": "Furnizori de servicii IT și de găzduire (persoane împuternicite)",
+      "authorities": "Entități publice doar în cazurile prevăzute de lege",
+      "listAvailable": "Lista actualizată a persoanelor împuternicite este disponibilă la cerere."
+    },
+    "dataRetention": {
+      "title": "Păstrarea Datelor",
+      "contactData": "Date în scopuri de contact sau listă de așteptare: până la 12 luni de la colectare",
+      "consentData": "Date prelucrate pe baza consimțământului: până la revocare sau, maximum, 2 ani",
+      "navigationData": "Date de navigare: pentru timpul necesar pentru a asigura funcționarea site-ului"
+    },
+    "userRights": {
+      "title": "Drepturile Persoanei Vizate",
+      "intro": "În conformitate cu articolele 15-22 din GDPR, utilizatorul are dreptul de a:",
+      "access": "Accesa datele sale",
+      "rectification": "Solicita rectificarea sau ștergerea acestora",
+      "objection": "Se opune prelucrării",
+      "portability": "Obține portabilitatea datelor",
+      "withdraw": "Retrage consimțământul în orice moment",
+      "complaint": "Depune o plângere la Autoritatea de Supraveghere",
+      "contact": "Pentru a-ți exercita drepturile: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>"
+    },
+    "transfers": {
+      "title": "Transferuri Internaționale",
+      "content": "Datele nu vor fi transferate în afara Spațiului Economic European."
+    },
+    "cookies": {
+      "title": "Politica de Cookie-uri",
+      "description": "Ultima actualizare: 03/07/2025",
+      "whatAre": {
+        "title": "Ce sunt cookie-urile?",
+        "content": "Cookie-urile sunt fișiere text mici pe care site-urile web le pot stoca pe dispozitivul dvs. (PC, smartphone, tabletă) pentru a face experiența dvs. de navigare mai eficientă."
+      },
+      "typesUsed": {
+        "title": "Tipuri de cookie-uri utilizate pe eveo.it",
+        "content": "Acest site utilizează doar cookie-uri tehnice și statistice anonime:"
+      },
+      "table": {
+        "name": "Nume",
+        "purpose": "Scop",
+        "duration": "Durată",
+        "type": "Tip"
+      },
+      "cookieConsent": {
+        "purpose": "Stochează starea consimțământului pentru cookie-uri",
+        "duration": "1 an"
+      },
+      "analytics": {
+        "purpose": "Detectarea statisticilor agregate Google Analytics (anonimizate)",
+        "duration": "max. 2 ani"
+      },
+      "cookiebot": {
+        "purpose": "Optimizare CMP și consimțământ",
+        "duration": "Sesiune"
+      },
+      "noProfilingCookies": "Nu sunt utilizate cookie-uri de profilare sau publicitare.",
+      "purposes": {
+        "title": "Scopurile prelucrării",
+        "technical": "Asigurarea funcționării corecte a site-ului (cookie-uri tehnice)",
+        "analytics": "Colectarea de date statistice anonime despre utilizarea site-ului, utile pentru îmbunătățirea experienței utilizatorului"
+      },
+      "legalBasis": {
+        "title": "Baza juridică",
+        "content": "Pentru cookie-urile tehnice, consimțământul nu este necesar. Pentru cookie-urile statistice anonimizate (de ex. Google Analytics cu IP anonimizat), consimțământul nu este obligatoriu conform Liniilor Directoare ale Autorității de Protecție a Datelor."
+      },
+      "consent": {
+        "title": "Gestionarea consimțământului",
+        "content": "Puteți modifica sau revoca consimțământul dvs. în orice moment făcând clic pe bannerul de cookie-uri din partea de jos a site-ului sau accesand setările browserului dvs."
+      }
+    },
+    "contact": {
+      "title": "Contacte și Responsabil",
+      "content": "Pentru informații privind prelucrarea datelor prin cookie-uri, puteți contacta:",
+      "email": "info@eveo.it"
+    }
+  },
+  "bonusResources": {
+    "limitedTime": "Disponibil pentru timp limitat!",
+    "title": "2 Resurse Gratuite pentru Organizatorii de Evenimente",
+    "subtitle": "Obțineți instrumente profesionale gratuite pentru a organiza evenimente perfecte",
+    "guide": {
+      "title": "Ghid Complet de Organizare Evenimente",
+      "description": "În acest PDF veți găsi toate strategiile pentru organizarea evenimentelor. Descoperiți trucuri pentru a economisi până la 40%!"
+    },
+    "spreadsheet": {
+      "title": "Foaie de Calcul pentru Management",
+      "description": "Un instrument Excel profesional pentru a compara oferte, gestiona bugete și urmări toți furnizorii. Perfect pentru analiză comparativă și control al costurilor."
+    },
+    "free": "Gratuit",
+    "downloadButton": "Descărcați Resurse Gratuite"
+  }
+}
