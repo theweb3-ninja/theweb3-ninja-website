@@ -10,7 +10,7 @@ export const HowItWorksSection = () => {
       className="container-fluid mx-auto px-6 py-20 bg-gradient-to-br from-purple-50/30 to-indigo-50/30"
     >
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold mb-6 bg-linear-to-r from-eveo to-eveo-dark bg-clip-text text-transparent uppercase">
+        <h2 className="text-4xl font-bold mb-6 bg-linear-to-r from-theweb3ninja to-theweb3ninja-dark bg-clip-text text-transparent uppercase">
           {t('howItWorks.title')}
         </h2>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">{t('howItWorks.subtitle')}</p>
@@ -18,7 +18,7 @@ export const HowItWorksSection = () => {
 
       <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         <div className="text-center relative">
-          <div className="w-20 h-20 bg-linear-135 from-eveo to-eveo-dark rounded-2xl flex items-center justify-center mx-auto mb-6 relative z-10 shadow-lg">
+          <div className="w-20 h-20 bg-linear-135 from-theweb3ninja to-theweb3ninja-dark rounded-2xl flex items-center justify-center mx-auto mb-6 relative z-10 shadow-lg">
             <MagnifyingGlassIcon className="w-10 h-10 text-white" />
           </div>
           <div className="absolute top-10 left-1/2 w-full h-0.5 bg-gradient-to-r from-purple-200 to-purple-300 transform -translate-x-1/2 hidden md:block"></div>
@@ -27,7 +27,7 @@ export const HowItWorksSection = () => {
         </div>
 
         <div className="text-center relative">
-          <div className="w-20 h-20 bg-linear-135 from-eveo to-eveo-dark rounded-2xl flex items-center justify-center mx-auto mb-6 relative z-10 shadow-lg">
+          <div className="w-20 h-20 bg-linear-135 from-theweb3ninja to-theweb3ninja-dark rounded-2xl flex items-center justify-center mx-auto mb-6 relative z-10 shadow-lg">
             <ChatBubbleIcon className="w-10 h-10 text-white" />
           </div>
           <div className="absolute top-10 left-1/2 w-full h-0.5 bg-gradient-to-r from-purple-200 to-purple-300 transform -translate-x-1/2 hidden md:block"></div>
@@ -36,7 +36,7 @@ export const HowItWorksSection = () => {
         </div>
 
         <div className="text-center relative">
-          <div className="w-20 h-20 bg-linear-135 from-eveo to-eveo-dark rounded-2xl flex items-center justify-center mx-auto mb-6 relative z-10 shadow-lg">
+          <div className="w-20 h-20 bg-linear-135 from-theweb3ninja to-theweb3ninja-dark rounded-2xl flex items-center justify-center mx-auto mb-6 relative z-10 shadow-lg">
             <CalendarIcon className="w-10 h-10 text-white" />
           </div>
           <div className="absolute top-10 left-1/2 w-full h-0.5 bg-gradient-to-r from-purple-200 to-purple-300 transform -translate-x-1/2 hidden md:block"></div>

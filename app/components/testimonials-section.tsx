@@ -13,7 +13,7 @@ interface Testimonial {
 
 const TestimonialCard = ({ testimonial, size = 'normal' }: { testimonial: Testimonial; size?: 'normal' | 'small' }) => (
   <Card
-    className={`${size === 'small' ? 'p-4' : 'p-8'} bg-white/70 backdrop-blur-sm border border-eveo/10 shadow-lg rounded-3xl h-full`}
+    className={`${size === 'small' ? 'p-4' : 'p-8'} bg-white/70 backdrop-blur-sm border border-theweb3ninja/10 shadow-lg rounded-3xl h-full`}
   >
     <CardContent className="p-0 flex flex-col h-full">
       <div className="flex mb-4">
@@ -29,7 +29,7 @@ const TestimonialCard = ({ testimonial, size = 'normal' }: { testimonial: Testim
       </p>
       <div className="flex items-center mt-auto">
         <div
-          className={`${size === 'small' ? 'w-10 h-10' : 'w-12 h-12'} bg-linear-135 from-eveo to-eveo-dark rounded-2xl flex items-center justify-center mr-4 shadow-md`}
+          className={`${size === 'small' ? 'w-10 h-10' : 'w-12 h-12'} bg-linear-135 from-theweb3ninja to-theweb3ninja-dark rounded-2xl flex items-center justify-center mr-4 shadow-md`}
         >
           <span className={`text-white font-bold ${size === 'small' ? 'text-sm' : ''}`}>{testimonial.initials}</span>
         </div>
@@ -65,7 +65,7 @@ export const TestimonialsSection = () => {
       name: t('testimonials.reviewer3Name'),
       role: t('testimonials.reviewer3Role'),
       initials: 'LV',
-      gradient: 'bg-linear-135 from-eveo to-eveo-dark',
+      gradient: 'bg-linear-135 from-theweb3ninja to-theweb3ninja-dark',
     },
     {
       review: t('testimonials.review4'),

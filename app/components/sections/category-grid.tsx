@@ -40,7 +40,7 @@ export const CategoryGrid: React.FC<CategoryGridProps> = ({ selectedCategory }) 
   const { t } = useTranslation();
 
   return (
-    <section className="w-full py-16 min-h-screen mx-auto from-eveo-light/10 via-eveo-light/5 to-eveo/5 bg-gradient-to-br flex flex-col justify-center items-center">
+    <section className="w-full py-16 min-h-screen mx-auto from-theweb3ninja-light/10 via-theweb3ninja-light/5 to-theweb3ninja/5 bg-gradient-to-br flex flex-col justify-center items-center">
       <div className="container mx-auto px-4 flex flex-col gap-8 max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4 text-primary uppercase">

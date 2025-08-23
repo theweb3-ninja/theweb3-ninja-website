@@ -129,8 +129,8 @@ export const ContactForm: React.FC<ContactFormProps> = ({ isOpen, onClose, userT
     try {
       // Create a temporary anchor element for download
       const link = document.createElement('a');
-      link.href = '/files/eveo_spreadsheet_and_pdf_bonuspack.zip';
-      link.download = 'eveo_spreadsheet_and_pdf_bonuspack.zip';
+      link.href = '/files/theweb3ninja_spreadsheet_and_pdf_bonuspack.zip';
+      link.download = 'theweb3ninja_spreadsheet_and_pdf_bonuspack.zip';
       link.style.display = 'none';
 
       // Add to DOM, trigger download, then remove
@@ -174,7 +174,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ isOpen, onClose, userT
       setIsSubmitting(true);
 
       // Submit to API endpoint
-      const response = await fetch('/eveo-api/contact', {
+      const response = await fetch('/theweb3ninja-api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -264,14 +264,14 @@ export const ContactForm: React.FC<ContactFormProps> = ({ isOpen, onClose, userT
                   : t('contact.fillServiceInfo', 'Please select the services you provide')}
             </p>
             {userType === UserType.Organizer && (
-              <div className="mb-4 p-4 bg-eveo/5 rounded-lg border border-eveo/10">
+              <div className="mb-4 p-4 bg-theweb3ninja/5 rounded-lg border border-theweb3ninja/10">
                 <div className="text-sm text-gray-600 space-y-2">
                   <div className="flex items-center gap-2">
-                    <FileTextIcon className="w-5 h-5 text-eveo" />
+                    <FileTextIcon className="w-5 h-5 text-theweb3ninja" />
                     <span>{t('contact.pdfGuide')}</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <FileIcon className="w-5 h-5 text-eveo" />
+                    <FileIcon className="w-5 h-5 text-theweb3ninja" />
                     <span>{t('contact.excelSheet')}</span>
                   </div>
                 </div>

@@ -2,7 +2,7 @@
   "hero": {
     "title": "The platform to find",
     "titleHighlight": "the best suppliers for your event",
-    "subtitle": "Eveo is the marketplace that brings together event organizers and suppliers. Find everything you need for your perfect event, all in one place.",
+    "subtitle": "The Web3 Ninja is the marketplace that brings together event organizers and suppliers. Find everything you need for your perfect event, all in one place.",
     "organizerTitle": "Are You Organizing an Event?",
     "organizerSubtitle": "Find verified suppliers for catering, venues, entertainment and much more",
     "organizerCta": "Start as Organizer",
@@ -11,7 +11,7 @@
     "supplierCta": "Sign Up as Supplier"
   },
   "howItWorks": {
-    "title": "How Eveo Works",
+    "title": "How The Web3 Ninja Works",
     "subtitle": "Three simple steps to connect with perfect suppliers for your event",
     "step1Title": "1. Describe Your Needs",
     "step1Desc": "Describe your event, budget and requirements. Our intelligent system will understand exactly what you're looking for.",
@@ -23,48 +23,48 @@
   "testimonials": {
     "title": "What Our Users Say About Our Beta Launch",
     "subtitle": "Join thousands of satisfied event organizers and suppliers",
-    "review1": "Eveo made organizing our corporate event incredibly easy. We found the perfect venue and catering in just one afternoon!",
+    "review1": "The Web3 Ninja made organizing our corporate event incredibly easy. We found the perfect venue and catering in just one afternoon!",
     "reviewer1Name": "Mark R.",
     "reviewer1Role": "Event Manager",
-    "review2": "As a photographer, Eveo has connected me with fantastic clients. The platform is professional and easy to use.",
+    "review2": "As a photographer, The Web3 Ninja has connected me with fantastic clients. The platform is professional and easy to use.",
     "reviewer2Name": "Sarah B.",
     "reviewer2Role": "Photographer",
-    "review3": "The quality of suppliers on Eveo is exceptional. We've organized 5 events through the platform with perfect results.",
+    "review3": "The quality of suppliers on The Web3 Ninja is exceptional. We've organized 5 events through the platform with perfect results.",
     "reviewer3Name": "Luke V.",
     "reviewer3Role": "HR Director",
-    "review4": "Found the perfect DJ for my store opening through Eveo. The booking process was seamless and stress-free.",
+    "review4": "Found the perfect DJ for my store opening through The Web3 Ninja. The booking process was seamless and stress-free.",
     "reviewer4Name": "Emily C.",
     "reviewer4Role": "Artisan",
-    "review5": "As a caterer, Eveo has tripled my bookings. The clients are serious and the platform handles everything smoothly.",
+    "review5": "As a caterer, The Web3 Ninja has tripled my bookings. The clients are serious and the platform handles everything smoothly.",
     "reviewer5Name": "Antonio M.",
     "reviewer5Role": "Chef & Caterer",
-    "review6": "Eveo helped us organize our company's annual conference. Everything was perfect from start to finish.",
+    "review6": "The Web3 Ninja helped us organize our company's annual conference. Everything was perfect from start to finish.",
     "reviewer6Name": "David K.",
     "reviewer6Role": "Operations Manager",
     "review7": "The venue recommendations were spot-on for our product launch. Saved us weeks of research!",
     "reviewer7Name": "Jennifer L.",
     "reviewer7Role": "Marketing Director",
-    "review8": "As a florist, I've found amazing event opportunities through Eveo. The platform really works!",
+    "review8": "As a florist, I've found amazing event opportunities through The Web3 Ninja. The platform really works!",
     "reviewer8Name": "Maria S.",
     "reviewer8Role": "Floral Designer",
-    "review9": "Eveo's supplier network is incredible. We've never had such smooth event coordination before.",
+    "review9": "The Web3 Ninja's supplier network is incredible. We've never had such smooth event coordination before.",
     "reviewer9Name": "Robert T.",
     "reviewer9Role": "Event Coordinator"
   },
   "faq": {
     "title": "Frequently Asked Questions",
-    "subtitle": "Everything you need to know about Eveo",
-    "q1": "How does Eveo work?",
+    "subtitle": "Everything you need to know about The Web3 Ninja",
+    "q1": "How does The Web3 Ninja work?",
     "a1": "Simply describe your event needs and we'll connect you with verified suppliers that match your requirements and budget. You can compare quotes and book directly through our platform.",
-    "q2": "Is Eveo free?",
-    "a2": "Yes! Event organizers can use Eveo completely free. Suppliers pay a monthly or annual subscription to be on the platform and use all services.",
+    "q2": "Is The Web3 Ninja free?",
+    "a2": "Yes! Event organizers can use The Web3 Ninja completely free. Suppliers pay a monthly or annual subscription to be on the platform and use all services.",
     "q3": "How are suppliers verified?",
     "a3": "All suppliers go through a rigorous verification process that includes business license checks, insurance verification, and portfolio review. We also continuously monitor performance and client feedback.",
     "q4": "What types of events do you support?",
     "a4": "We support all types of events, from private events to large corporate gatherings. Our suppliers cover everything from venues and catering to entertainment and technical services."
   },
   "features": {
-    "title": "Why Choose Eveo?",
+    "title": "Why Choose The Web3 Ninja?",
     "subtitle": "We make event organization simple by connecting you with the right suppliers",
     "perfectMatch": "Perfect Matches",
     "perfectMatchDesc": "Our intelligent matching algorithm connects you with suppliers that fit exactly your needs and budget",
@@ -82,7 +82,7 @@
   },
   "finalCta": {
     "title": "Ready to Transform Your Events?",
-    "subtitle": "Join Eveo today and discover the future of event organization",
+    "subtitle": "Join The Web3 Ninja today and discover the future of event organization",
     "cta": "Register Your Interest"
   },
   "footer": {
@@ -254,8 +254,8 @@
     }
   },
   "metadata": {
-    "slogan": "Eveo | Event Marketplace for Organizers & Suppliers",
-    "description": "Eveo is the marketplace that brings together event organizers and suppliers. Find everything you need for your perfect event, all in one place.",
+    "slogan": "The Web3 Ninja | Event Marketplace for Organizers & Suppliers",
+    "description": "The Web3 Ninja is the marketplace that brings together event organizers and suppliers. Find everything you need for your perfect event, all in one place.",
     "keywords": "event marketplace, event organizers, event suppliers, venue booking, catering services, event planning, event management",
     "tagline": "Connecting events with perfect suppliers, one celebration at a time."
   },
@@ -268,17 +268,17 @@
   "privacy": {
     "title": "Privacy Policy",
     "subtitle": "INFORMATION REGARDING THE PROCESSING OF PERSONAL DATA PURSUANT TO ART. 13 OF EU REGULATION 679/2016",
-    "description": "Privacy policy for Eveo - Learn how we protect your personal data",
+    "description": "Privacy policy for The Web3 Ninja - Learn how we protect your personal data",
     "lastUpdate": "Last updated",
     "backToHome": "Back to Home",
     "controller": {
       "title": "Data Controller",
-      "content": "The Data Controller is Eveo S.r.l., with registered office in {{address}}, represented by its legal representative pro tempore (hereinafter also the \"Controller\"). For any request or information, you can contact us at the email address: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>."
+      "content": "The Data Controller is The Web3 Ninja S.r.l., with registered office in {{address}}, represented by its legal representative pro tempore (hereinafter also the \"Controller\"). For any request or information, you can contact us at the email address: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>."
     },
     "dataTypes": {
       "title": "Types of Data Processed",
       "voluntaryData": {
-        "title": "Data voluntarily provided by the user through forms on www.eveo.it",
+        "title": "Data voluntarily provided by the user through forms on www.theweb3.ninja",
         "name": "Name (required)",
         "surname": "Surname (optional)",
         "company": "Company Name (optional)",
@@ -343,7 +343,7 @@
         "content": "Cookies are small text files that websites can save on your device (PC, smartphone, tablet) to make your browsing experience more efficient."
       },
       "typesUsed": {
-        "title": "Types of cookies used on eveo.it",
+        "title": "Types of cookies used on theweb3.ninja",
         "content": "This site uses only technical and anonymous statistical cookies:"
       },
       "table": {
@@ -382,7 +382,7 @@
     "contact": {
       "title": "Contacts and Controller",
       "content": "For any information regarding the processing of data through cookies, you can contact:",
-      "email": "info@eveo.it"
+      "email": "info@theweb3.ninja"
     }
   },
   "bonusResources": {
@@ -401,7 +401,7 @@
     "downloadButton": "Download Free Resources"
   },
   "header": {
-    "logoTitle": "Eveo - Event Management Platform",
-    "logoAlt": "Eveo Logo - Event Management Platform"
+    "logoTitle": "The Web3 Ninja - Event Management Platform",
+    "logoAlt": "The Web3 Ninja Logo - Event Management Platform"
   }
 }

@@ -1,5 +1,5 @@
 import { HTML_ERROR } from './constants';
-import { handleApiRequest, purgeCache } from './eveo-api';
+import { handleApiRequest, purgeCache } from './apis';
 import { handlerStaticFile, isStaticFile } from './paths';
 import { isSuspiciousUrl } from './security';
 import { getBuild, reactRouterRequestHandler } from './utils';
@@ -27,7 +27,7 @@ export default {
     const buildVersion = build.assets.version;
     const { VITE_ENV } = env;
     const isDevelopment = VITE_ENV === 'development';
-    const storedVersion = await env.KV_EVEO.get(VITE_ENV);
+    const storedVersion = await env.KV_THEWEB3NINJA.get(VITE_ENV);
     const url = new URL(request.url);
     const pathname = url.pathname;
 
@@ -48,7 +48,7 @@ export default {
       return new Response('Forbidden', { status: 403 });
     }
 
-    if (pathname.startsWith('/eveo-api/')) {
+    if (pathname.startsWith('/apis/')) {
       return handleApiRequest(request, env);
     }
 
@@ -59,7 +59,7 @@ export default {
 
     // Automatically purge cache on first execution after deployment
     if (storedVersion !== buildVersion) {
-      await env.KV_EVEO.put(VITE_ENV, buildVersion);
+      await env.KV_THEWEB3NINJA.put(VITE_ENV, buildVersion);
 
       ctx.waitUntil(purgeCache(env, [VITE_ENV]));
 

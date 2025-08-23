@@ -2,7 +2,7 @@
   "hero": {
     "title": "Plattformen för att hitta",
     "titleHighlight": "de bästa leverantörerna för ditt evenemang",
-    "subtitle": "Eveo är marknadsplatsen som förenar eventorganisatörer och leverantörer. Hitta allt du behöver för ditt perfekta evenemang, allt på ett ställe.",
+    "subtitle": "The Web3 Ninja är marknadsplatsen som förenar eventorganisatörer och leverantörer. Hitta allt du behöver för ditt perfekta evenemang, allt på ett ställe.",
     "organizerTitle": "Organiserar du ett Evenemang?",
     "organizerSubtitle": "Hitta verifierade leverantörer för catering, platser, underhållning och mycket mer",
     "organizerCta": "Börja som Organisatör",
@@ -11,7 +11,7 @@
     "supplierCta": "Registrera dig som Leverantör"
   },
   "howItWorks": {
-    "title": "Så Fungerar Eveo",
+    "title": "Så Fungerar The Web3 Ninja",
     "subtitle": "Tre enkla steg för att koppla ihop med perfekta leverantörer för ditt evenemang",
     "step1Title": "1. Beskriv dina Behov",
     "step1Desc": "Beskriv ditt evenemang, budget och krav. Vårt intelligenta system förstår exakt vad du letar efter.",
@@ -23,28 +23,28 @@
   "testimonials": {
     "title": "Vad Våra Användare Säger Om Vår Beta-lansering",
     "subtitle": "Gå med tusentals nöjda eventorganisatörer och leverantörer",
-    "review1": "Eveo gjorde det otroligt enkelt att organisera vårt företagsevenemang. Vi hittade den perfekta platsen och cateringen på bara en eftermiddag!",
+    "review1": "The Web3 Ninja gjorde det otroligt enkelt att organisera vårt företagsevenemang. Vi hittade den perfekta platsen och cateringen på bara en eftermiddag!",
     "reviewer1Name": "Mark R.",
     "reviewer1Role": "Event Manager",
-    "review2": "Som fotograf har Eveo kopplat mig till fantastiska kunder. Plattformen är professionell och lätt att använda.",
+    "review2": "Som fotograf har The Web3 Ninja kopplat mig till fantastiska kunder. Plattformen är professionell och lätt att använda.",
     "reviewer2Name": "Sarah B.",
     "reviewer2Role": "Fotograf",
-    "review3": "Kvaliteten på leverantörer på Eveo är exceptionell. Vi har organiserat 5 evenemang via plattformen med perfekta resultat.",
+    "review3": "Kvaliteten på leverantörer på The Web3 Ninja är exceptionell. Vi har organiserat 5 evenemang via plattformen med perfekta resultat.",
     "reviewer3Name": "Lucas V.",
     "reviewer3Role": "HR-direktör",
-    "review4": "Hittade den perfekta DJ:n för min butiksinvigning via Eveo. Bokningsprocessen var sömlös och stressfri.",
+    "review4": "Hittade den perfekta DJ:n för min butiksinvigning via The Web3 Ninja. Bokningsprocessen var sömlös och stressfri.",
     "reviewer4Name": "Emma C.",
     "reviewer4Role": "Hantverkare",
-    "review5": "Som caterare har Eveo tredubblat mina bokningar. Kunderna är seriösa och plattformen hanterar allt smidigt.",
+    "review5": "Som caterare har The Web3 Ninja tredubblat mina bokningar. Kunderna är seriösa och plattformen hanterar allt smidigt.",
     "reviewer5Name": "Antonio M.",
     "reviewer5Role": "Kock & Caterare",
-    "review6": "Eveo hjälpte oss organisera vårt företags årliga konferens. Allt var perfekt från början till slut.",
+    "review6": "The Web3 Ninja hjälpte oss organisera vårt företags årliga konferens. Allt var perfekt från början till slut.",
     "reviewer6Name": "David K.",
     "reviewer6Role": "Operations Manager",
     "review7": "Platsrekommendationerna var perfekta för vår produktlansering. Sparade oss veckor av research!",
     "reviewer7Name": "Jennifer L.",
     "reviewer7Role": "Marknadsföringsdirektör",
-    "review8": "Som florist har jag hittat fantastiska eventmöjligheter via Eveo. Plattformen fungerar verkligen!",
+    "review8": "Som florist har jag hittat fantastiska eventmöjligheter via The Web3 Ninja. Plattformen fungerar verkligen!",
     "reviewer8Name": "Maria S.",
     "reviewer8Role": "Blomdesigner",
     "review9": "Eveos leverantörsnätverk är otroligt. Vi har aldrig haft så smidig eventkoordinering.",
@@ -53,18 +53,18 @@
   },
   "faq": {
     "title": "Vanliga Frågor",
-    "subtitle": "Allt du behöver veta om Eveo",
-    "q1": "Hur fungerar Eveo?",
+    "subtitle": "Allt du behöver veta om The Web3 Ninja",
+    "q1": "Hur fungerar The Web3 Ninja?",
     "a1": "Beskriv bara dina eventbehov så kopplar vi dig till verifierade leverantörer som matchar dina krav och budget. Du kan jämföra offerter och boka direkt via vår plattform.",
-    "q2": "Är Eveo gratis?",
-    "a2": "Ja! Eventorganisatörer kan använda Eveo helt gratis. Leverantörer betalar en månads- eller årsbaserad prenumeration för att vara närvarande på plattformen och använda alla tjänster.",
+    "q2": "Är The Web3 Ninja gratis?",
+    "a2": "Ja! Eventorganisatörer kan använda The Web3 Ninja helt gratis. Leverantörer betalar en månads- eller årsbaserad prenumeration för att vara närvarande på plattformen och använda alla tjänster.",
     "q3": "Hur verifieras leverantörer?",
     "a3": "Alla leverantörer genomgår en rigorös verifieringsprocess som inkluderar företagslicenskontroller, försäkringsverifiering och portfoliogranskning. Vi övervakar också kontinuerligt prestanda och kundfeedback.",
     "q4": "Vilka typer av evenemang stöder ni?",
     "a4": "Vi stöder alla typer av evenemang, från privata evenemang till stora företagssammankomster. Våra leverantörer täcker allt från platser och catering till underhållning och tekniska tjänster."
   },
   "features": {
-    "title": "Varför Välja Eveo?",
+    "title": "Varför Välja The Web3 Ninja?",
     "subtitle": "Vi gör eventorganisation enkelt genom att koppla dig till rätt leverantörer",
     "perfectMatch": "Perfekta Matchningar",
     "perfectMatchDesc": "Vår intelligenta matchningsalgoritm kopplar dig till leverantörer som exakt passar dina behov och budget",
@@ -82,7 +82,7 @@
   },
   "finalCta": {
     "title": "Redo att Transformera dina Evenemang?",
-    "subtitle": "Gå med Eveo idag och upptäck framtiden för eventorganisation",
+    "subtitle": "Gå med The Web3 Ninja idag och upptäck framtiden för eventorganisation",
     "cta": "Registrera ditt Intresse"
   },
   "footer": {
@@ -201,8 +201,8 @@
     }
   },
   "metadata": {
-    "slogan": "Eveo | Evenemangsmarknadsplats för Arrangörer och Leverantörer",
-    "description": "Eveo är marknadsplatsen som för samman eventarrangörer och leverantörer. Hitta allt du behöver för ditt perfekta evenemang, allt på ett ställe.",
+    "slogan": "The Web3 Ninja | Evenemangsmarknadsplats för Arrangörer och Leverantörer",
+    "description": "The Web3 Ninja är marknadsplatsen som för samman eventarrangörer och leverantörer. Hitta allt du behöver för ditt perfekta evenemang, allt på ett ställe.",
     "keywords": "event marketplace, event organizers, event suppliers, venue booking, catering services, event planning, event management",
     "tagline": "Kopplar samman evenemang med perfekta leverantörer, en fest i taget."
   },
@@ -220,12 +220,12 @@
     "backToHome": "Tillbaka till startsidan",
     "controller": {
       "title": "Personuppgiftsansvarig",
-      "content": "Personuppgiftsansvarig är Eveo S.r.l., med säte i {{address}}, företrädd av dess juridiska företrädare pro tempore (härefter även \"den Ansvarige\"). För frågor eller information kan du kontakta oss via e-post: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>."
+      "content": "Personuppgiftsansvarig är The Web3 Ninja S.r.l., med säte i {{address}}, företrädd av dess juridiska företrädare pro tempore (härefter även \"den Ansvarige\"). För frågor eller information kan du kontakta oss via e-post: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>."
     },
     "dataTypes": {
       "title": "Typer av Behandlade Uppgifter",
       "voluntaryData": {
-        "title": "Uppgifter som frivilligt lämnats av användaren via formulär på www.eveo.it",
+        "title": "Uppgifter som frivilligt lämnats av användaren via formulär på www.theweb3.ninja",
         "name": "Förnamn (obligatoriskt)",
         "surname": "Efternamn (valfritt)",
         "company": "Företagsnamn (valfritt)",
@@ -290,7 +290,7 @@
         "content": "Cookies är små textfiler som webbplatser kan lagra på din enhet (PC, smartphone, surfplatta) för att göra din surfupplevelse mer effektiv."
       },
       "typesUsed": {
-        "title": "Typer av cookies som används på eveo.it",
+        "title": "Typer av cookies som används på theweb3.ninja",
         "content": "Denna webbplats använder endast tekniska och anonyma statistiska cookies:"
       },
       "table": {
@@ -329,7 +329,7 @@
     "contact": {
       "title": "Kontakter och Ansvarig",
       "content": "För information om behandling av uppgifter via cookies kan du kontakta:",
-      "email": "info@eveo.it"
+      "email": "info@theweb3.ninja"
     }
   },
   "bonusResources": {
@@ -423,7 +423,7 @@
     }
   },
   "header": {
-    "logoTitle": "Eveo - Evenemangshanteringsplattform",
-    "logoAlt": "Eveo Logo - Evenemangshanteringsplattform"
+    "logoTitle": "The Web3 Ninja - Evenemangshanteringsplattform",
+    "logoAlt": "The Web3 Ninja Logo - Evenemangshanteringsplattform"
   }
 }

@@ -2,7 +2,7 @@
   "hero": {
     "title": "Platforma pentru a găsi",
     "titleHighlight": "cei mai buni furnizori pentru evenimentul tău",
-    "subtitle": "Eveo este marketplace-ul care reunește organizatori de evenimente și furnizori. Găsește tot ce ai nevoie pentru evenimentul tău perfect, totul într-un singur loc.",
+    "subtitle": "The Web3 Ninja este marketplace-ul care reunește organizatori de evenimente și furnizori. Găsește tot ce ai nevoie pentru evenimentul tău perfect, totul într-un singur loc.",
     "organizerTitle": "Organizezi un Eveniment?",
     "organizerSubtitle": "Găsește furnizori verificați pentru catering, locații, divertisment și multe altele",
     "organizerCta": "Începe ca Organizator",
@@ -11,7 +11,7 @@
     "supplierCta": "Înscrie-te ca Furnizor"
   },
   "howItWorks": {
-    "title": "Cum Funcționează Eveo",
+    "title": "Cum Funcționează The Web3 Ninja",
     "subtitle": "Trei pași simpli pentru a te conecta cu furnizori perfecți pentru evenimentul tău",
     "step1Title": "1. Descrie Nevoile Tale",
     "step1Desc": "Descrie evenimentul, bugetul și cerințele tale. Sistemul nostru inteligent va înțelege exact ce cauți.",
@@ -23,48 +23,48 @@
   "testimonials": {
     "title": "Ce Spun Utilizatorii Noștri Despre Lansarea Beta",
     "subtitle": "Alătură-te miilor de organizatori de evenimente și furnizori mulțumiți",
-    "review1": "Eveo a făcut organizarea evenimentului nostru corporativ incredibil de ușoară. Am găsit locația și cateringul perfect într-o singură după-amiază!",
+    "review1": "The Web3 Ninja a făcut organizarea evenimentului nostru corporativ incredibil de ușoară. Am găsit locația și cateringul perfect într-o singură după-amiază!",
     "reviewer1Name": "Mark R.",
     "reviewer1Role": "Manager de Evenimente",
-    "review2": "Ca fotograf, Eveo m-a conectat cu clienți fantastici. Platforma este profesionistă și ușor de utilizat.",
+    "review2": "Ca fotograf, The Web3 Ninja m-a conectat cu clienți fantastici. Platforma este profesionistă și ușor de utilizat.",
     "reviewer2Name": "Sarah B.",
     "reviewer2Role": "Fotograf",
-    "review3": "Calitatea furnizorilor de pe Eveo este excepțională. Am organizat 5 evenimente prin intermediul platformei cu rezultate perfecte.",
+    "review3": "Calitatea furnizorilor de pe The Web3 Ninja este excepțională. Am organizat 5 evenimente prin intermediul platformei cu rezultate perfecte.",
     "reviewer3Name": "Luke V.",
     "reviewer3Role": "Director HR",
-    "review4": "Am găsit DJ-ul perfect pentru deschiderea magazinului meu prin Eveo. Procesul de rezervare a fost simplu și fără stres.",
+    "review4": "Am găsit DJ-ul perfect pentru deschiderea magazinului meu prin The Web3 Ninja. Procesul de rezervare a fost simplu și fără stres.",
     "reviewer4Name": "Emily C.",
     "reviewer4Role": "Artizană",
-    "review5": "Ca furnizor de catering, Eveo mi-a triplat rezervările. Clienții sunt serioși și platforma gestionează totul fără probleme.",
+    "review5": "Ca furnizor de catering, The Web3 Ninja mi-a triplat rezervările. Clienții sunt serioși și platforma gestionează totul fără probleme.",
     "reviewer5Name": "Antonio M.",
     "reviewer5Role": "Bucătar & Furnizor de Catering",
-    "review6": "Eveo ne-a ajutat să organizăm conferința anuală a companiei. Totul a fost perfect de la început până la sfârșit.",
+    "review6": "The Web3 Ninja ne-a ajutat să organizăm conferința anuală a companiei. Totul a fost perfect de la început până la sfârșit.",
     "reviewer6Name": "David K.",
     "reviewer6Role": "Manager de Operațiuni",
     "review7": "Recomandările pentru locații au fost perfecte pentru lansarea produsului nostru. Ne-a economisit săptămâni de cercetare!",
     "reviewer7Name": "Jennifer L.",
     "reviewer7Role": "Director de Marketing",
-    "review8": "Ca florar, am găsit oportunități de evenimente uimitoare prin Eveo. Platforma chiar funcționează!",
+    "review8": "Ca florar, am găsit oportunități de evenimente uimitoare prin The Web3 Ninja. Platforma chiar funcționează!",
     "reviewer8Name": "Maria S.",
     "reviewer8Role": "Designer Floral",
-    "review9": "Rețeaua de furnizori Eveo este incredibilă. Nu am avut niciodată o coordonare atât de bună a evenimentelor.",
+    "review9": "Rețeaua de furnizori The Web3 Ninja este incredibilă. Nu am avut niciodată o coordonare atât de bună a evenimentelor.",
     "reviewer9Name": "Robert T.",
     "reviewer9Role": "Coordonator de Evenimente"
   },
   "faq": {
     "title": "Întrebări Frecvente",
-    "subtitle": "Tot ce trebuie să știi despre Eveo",
-    "q1": "Cum funcționează Eveo?",
+    "subtitle": "Tot ce trebuie să știi despre The Web3 Ninja",
+    "q1": "Cum funcționează The Web3 Ninja?",
     "a1": "Descrie simplu nevoile evenimentului tău și te vom conecta cu furnizori verificați care se potrivesc cerințelor și bugetului tău. Poți compara oferte și rezerva direct prin platforma noastră.",
-    "q2": "Este Eveo gratuit?",
-    "a2": "Da! Organizatorii de evenimente pot folosi Eveo complet gratuit. Furnizorii plătesc un abonament lunar sau anual pentru a fi prezenți pe platformă și pentru a utiliza toate serviciile.",
+    "q2": "Este The Web3 Ninja gratuit?",
+    "a2": "Da! Organizatorii de evenimente pot folosi The Web3 Ninja complet gratuit. Furnizorii plătesc un abonament lunar sau anual pentru a fi prezenți pe platformă și pentru a utiliza toate serviciile.",
     "q3": "Cum sunt verificați furnizorii?",
     "a3": "Toți furnizorii trec printr-un proces riguros de verificare care include verificarea licenței de afaceri, verificarea asigurării și revizuirea portofoliului. De asemenea, monitorizăm continuu performanța și feedback-ul clienților.",
     "q4": "Ce tipuri de evenimente susțineți?",
     "a4": "Susținem toate tipurile de evenimente, de la evenimente private până la întâlniri corporative mari. Furnizorii noștri acoperă totul, de la locații și catering până la divertisment și servicii tehnice."
   },
   "features": {
-    "title": "De Ce Să Alegi Eveo?",
+    "title": "De Ce Să Alegi The Web3 Ninja?",
     "subtitle": "Facem organizarea evenimentelor simplă conectându-te cu furnizorii potriviți",
     "perfectMatch": "Potriviri Perfecte",
     "perfectMatchDesc": "Algoritmul nostru inteligent de potrivire te conectează cu furnizori care se potrivesc exact nevoilor și bugetului tău",
@@ -82,7 +82,7 @@
   },
   "finalCta": {
     "title": "Gata să Îți Transformi Evenimentele?",
-    "subtitle": "Alătură-te Eveo astăzi și descoperă viitorul organizării de evenimente",
+    "subtitle": "Alătură-te The Web3 Ninja astăzi și descoperă viitorul organizării de evenimente",
     "cta": "Înregistrează-ți Interesul"
   },
   "footer": {
@@ -179,8 +179,8 @@
     "leisure-experiences-desc": "Găsește cele mai bune servicii de timp liber și experiențe pentru evenimentul tău"
   },
   "metadata": {
-    "slogan": "Eveo | Marketplace Evenimente pentru Organizatori și Furnizori",
-    "description": "Eveo este marketplace-ul care reunește organizatori de evenimente și furnizori. Găsește tot ce ai nevoie pentru evenimentul tău perfect, totul într-un singur loc.",
+    "slogan": "The Web3 Ninja | Marketplace Evenimente pentru Organizatori și Furnizori",
+    "description": "The Web3 Ninja este marketplace-ul care reunește organizatori de evenimente și furnizori. Găsește tot ce ai nevoie pentru evenimentul tău perfect, totul într-un singur loc.",
     "keywords": "event marketplace, event organizers, event suppliers, venue booking, catering services, event planning, event management",
     "tagline": "Conectăm evenimente cu furnizori perfecți, o celebrare pe rând."
   },
@@ -193,17 +193,17 @@
   "privacy": {
     "title": "Politica de Confidențialitate",
     "subtitle": "INFORMAȚII PRIVIND PRELUCRAREA DATELOR CU CARACTER PERSONAL ÎN CONFORMITATE CU ART. 13 DIN REGULAMENTUL UE 679/2016",
-    "description": "Politica de confidențialitate Eveo - Aflați cum protejăm datele dvs. personale",
+    "description": "Politica de confidențialitate The Web3 Ninja - Aflați cum protejăm datele dvs. personale",
     "lastUpdate": "Ultima actualizare",
     "backToHome": "Înapoi la pagina principală",
     "controller": {
       "title": "Responsabilul Prelucrării",
-      "content": "Responsabilul prelucrării este Eveo S.r.l., cu sediul în {{address}}, reprezentată de reprezentantul său legal pro tempore (denumit în continuare și \"Responsabilul\"). Pentru orice solicitare sau informație, ne puteți contacta la adresa de e-mail: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>."
+      "content": "Responsabilul prelucrării este The Web3 Ninja S.r.l., cu sediul în {{address}}, reprezentată de reprezentantul său legal pro tempore (denumit în continuare și \"Responsabilul\"). Pentru orice solicitare sau informație, ne puteți contacta la adresa de e-mail: <a href=\"mailto:{{email}}\" class=\"text-primary hover:underline\">{{email}}</a>."
     },
     "dataTypes": {
       "title": "Tipuri de Date Prelucrate",
       "voluntaryData": {
-        "title": "Date furnizate voluntar de utilizator prin formulare pe www.eveo.it",
+        "title": "Date furnizate voluntar de utilizator prin formulare pe www.theweb3.ninja",
         "name": "Nume (obligatoriu)",
         "surname": "Prenume (opțional)",
         "company": "Numele companiei (opțional)",
@@ -268,7 +268,7 @@
         "content": "Cookie-urile sunt fișiere text mici pe care site-urile web le pot stoca pe dispozitivul dvs. (PC, smartphone, tabletă) pentru a face experiența dvs. de navigare mai eficientă."
       },
       "typesUsed": {
-        "title": "Tipuri de cookie-uri utilizate pe eveo.it",
+        "title": "Tipuri de cookie-uri utilizate pe theweb3.ninja",
         "content": "Acest site utilizează doar cookie-uri tehnice și statistice anonime:"
       },
       "table": {
@@ -307,7 +307,7 @@
     "contact": {
       "title": "Contacte și Responsabil",
       "content": "Pentru informații privind prelucrarea datelor prin cookie-uri, puteți contacta:",
-      "email": "info@eveo.it"
+      "email": "info@theweb3.ninja"
     }
   },
   "bonusResources": {

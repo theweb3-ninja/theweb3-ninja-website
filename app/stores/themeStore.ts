@@ -86,7 +86,7 @@ export const useThemeStore = create<ThemeState>()(
       },
     }),
     {
-      name: 'eveo-theme-storage',
+      name: 'theweb3ninja-theme-storage',
       partialize: state => ({ theme: state.theme }),
     }
   )

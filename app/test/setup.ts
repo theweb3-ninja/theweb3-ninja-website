@@ -16,9 +16,9 @@ afterEach(() => {
 Object.defineProperty(global, 'window', {
   value: {
     location: {
-      host: 'eveo.com',
+      host: 'theweb3.ninja',
       pathname: '/',
-      href: 'https://eveo.com/',
+      href: 'https://theweb3.ninja/',
       search: '',
       hash: '',
     },

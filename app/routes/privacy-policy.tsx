@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
         </h1>
         <p className="text-center text-gray-500 mb-8">{t('privacy.subtitle')}</p>
 
-        <Card className="max-w-4xl mx-auto mb-8 rounded-lg border border-eveo/10 dark:border-eveo/10 bg-card text-card-foreground shadow-sm">
+        <Card className="max-w-4xl mx-auto mb-8 rounded-lg border border-theweb3ninja/10 dark:border-theweb3ninja/10 bg-card text-card-foreground shadow-sm">
           <CardContent className="p-6 md:p-8">
             {/* Last update date */}
             <p className="text-sm text-gray-500 mb-6">

@@ -33,11 +33,11 @@ async function updateSecurityTxt() {
       }
     }
 
-    const domain = process.env.VITE_DOMAIN_EVEO_GLOBAL;
-    const email = process.env.VITE_EMAIL_SECURITY || 'security@geteveo.com';
+    const domain = process.env.VITE_DOMAIN_GLOBAL;
+    const email = process.env.VITE_EMAIL_SECURITY || 'security@theweb3.ninja';
 
     if (!domain) {
-      throw new Error('VITE_DOMAIN_EVEO_GLOBAL is not set in environment (.env)');
+      throw new Error('VITE_DOMAIN_GLOBAL is not set in environment (.env)');
     }
 
     // Calculate expiration date (3 years from now)

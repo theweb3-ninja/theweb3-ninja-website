@@ -1,17 +1,7 @@
 import { createInstance, i18n } from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
-import {
-  commonSettings,
-  defaultLanguage,
-  DOMAIN_EVEO_ITALY,
-  DOMAIN_EVEO_SPAIN,
-  isDev,
-  isServer,
-  languages,
-  resources,
-  supportedLanguages,
-} from '../config';
+import { commonSettings, defaultLanguage, isDev, isServer, languages, resources, supportedLanguages } from '../config';
 import { LangKey, LanguageConfig } from '../types';
 
 export let i18nInstance: i18n;
@@ -110,21 +100,6 @@ const getLanguageFromAcceptLanguage = (request?: Request) => {
   return language;
 };
 
-const getLanguageByHostname = (host: string) => {
-  let lang = undefined;
-
-  if (host.includes(DOMAIN_EVEO_ITALY)) {
-    lang = 'it';
-  } else if (host.includes(DOMAIN_EVEO_SPAIN)) {
-    lang = 'es';
-  }
-
-  if (lang) {
-    console.log(`🌍 ${isServer ? 'Server' : 'Client'} getLanguageByHostname: Language detected: ${lang}`);
-  }
-
-  return lang;
-};
 /**
  * Get language configuration by language code
  */
@@ -254,26 +229,17 @@ export const getDefaultLanguage = (request?: Request) => {
       language = pathLang;
       console.log(`🌍 Client getDefaultLanguage: Path language detected '/${pathLang}', using ${pathLang}`);
     }
-    // PRIORITY 2: Domain-based detection - applies when no path language
-    else {
-      language = getDefaultLanguageByDomain(location.hostname);
-    }
   }
   // Server-side: Use passed request or fallback to globalThis.request
   else if (request) {
     const serverRequest = request;
     const url = new URL(serverRequest.url);
-    const host = url.hostname || serverRequest.headers.get('host');
     const pathLang = extractLanguageFromPath(url.pathname);
 
     // PRIORITY 1: Path-based detection
     if (pathLang && pathLang.length === 2 && supportedLanguages.includes(pathLang)) {
       language = pathLang;
       console.log(`🌍 Server getDefaultLanguage: Path language detected '/${pathLang}', using ${pathLang}`);
-    }
-    // PRIORITY 2: Domain-based detection
-    else if (host) {
-      language = getDefaultLanguageByDomain(host);
     }
   }
 
@@ -283,24 +249,6 @@ export const getDefaultLanguage = (request?: Request) => {
   }
 
   // PRIORITY 4: Default app language
-  return resolveLanguage(language);
-};
-
-/**
- * Get the default language based on domain
- */
-export const getDefaultLanguageByDomain = (hostname?: string) => {
-  // Start with browser language as the lowest priority default
-  let language = undefined;
-
-  // PRIORITY: Domain-based detection
-  // Server-side and Client-side
-  if (hostname) {
-    language = getLanguageByHostname(hostname);
-  } else if (!isServer && typeof location !== 'undefined') {
-    language = getLanguageByHostname(location.hostname);
-  }
-
   return resolveLanguage(language);
 };
 
@@ -353,4 +301,4 @@ export const createOrReturnI18nInstance = (lng: string) => {
 /**
  * Default language code for the application
  */
-export const domainDefaultLanguage = getDefaultLanguageByDomain();
+export const domainDefaultLanguage = getDefaultLanguage();

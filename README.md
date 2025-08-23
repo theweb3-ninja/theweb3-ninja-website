@@ -1,22 +1,22 @@
-# Welcome to your Eveo project
+# Welcome to your The Web3 Ninja project
 
 ## Project info
 
-**URL**: <https://geteveo.com/projects/8b760633-4914-4a17-b6b3-e08a15d2ca05>
+**URL**: <https://theweb3.ninja/projects/8b760633-4914-4a17-b6b3-e08a15d2ca05>
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-### Use Eveo
+### Use The Web3 Ninja
 
-Simply visit the [Eveo Project](https://geteveo.com/projects/8b760633-4914-4a17-b6b3-e08a15d2ca05) and start prompting.
+Simply visit the [The Web3 Ninja Project](https://theweb3.ninja/projects/8b760633-4914-4a17-b6b3-e08a15d2ca05) and start prompting.
 
-Changes made via Eveo will be committed automatically to this repo.
+Changes made via The Web3 Ninja will be committed automatically to this repo.
 
 ### Use your preferred IDE
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Eveo.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in The Web3 Ninja.
 
 The only requirement is having Node.js & bun installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -62,15 +62,15 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Eveo](https://geteveo.com/projects/8b760633-4914-4a17-b6b3-e08a15d2ca05) and click on Share -> Publish.
+Simply open [The Web3 Ninja](https://theweb3.ninja/projects/8b760633-4914-4a17-b6b3-e08a15d2ca05) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Eveo project?
+## Can I connect a custom domain to my The Web3 Ninja project?
 
 Yes, you can!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.geteveo.com/tips-tricks/custom-domain#step-by-step-guide)
+Read more here: [Setting up a custom domain](https://docs.theweb3.ninja/tips-tricks/custom-domain#step-by-step-guide)
 
 ## SEO Hook Usage Examples
 
@@ -154,12 +154,7 @@ The system uses a sophisticated 3-tier language detection system:
    - Format: `/{language-code}/` (e.g., `/it/`, `/es/`)
    - Always takes precedence over domain or browser settings
 
-2. **Domain-Based Detection**
-   - `eveo.it` → Italian (it)
-   - `eveo.es` → Spanish (es)
-   - All other domains → English (en)
-
-3. **Browser Language Fallback**
+2. **Browser Language Fallback**
    - Uses `Accept-Language` header or navigator language
    - Falls back to English if no match found
 

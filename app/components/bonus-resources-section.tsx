@@ -9,14 +9,14 @@ export const BonusResourcesSection = ({ onCTAClick }: { onCTAClick: (userType: U
   const { t } = useTranslation();
 
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center gap-6 container-fluid mx-auto px-6 py-20 bg-gradient-to-br from-eveo/5 via-white to-eveo/10">
+    <section className="min-h-screen flex flex-col justify-center items-center gap-6 container-fluid mx-auto px-6 py-20 bg-gradient-to-br from-theweb3ninja/5 via-white to-theweb3ninja/10">
       <div className="w-full text-center max-w-5xl mx-auto mb-0">
-        <Badge className="mb-6 bg-eveo/10 text-eveo border-eveo/20 hover:bg-eveo/15 px-4 py-2 text-sm font-medium">
+        <Badge className="mb-6 bg-theweb3ninja/10 text-theweb3ninja border-theweb3ninja/20 hover:bg-theweb3ninja/15 px-4 py-2 text-sm font-medium">
           <ClockIcon className="w-4 h-4 mr-2" />
           {t('bonusResources.limitedTime')}
         </Badge>
 
-        <h2 className="inline-block text-eveo-dark w-full leading-tight text-4xl md:text-5xl font-bold mb-6 text-ellipsis overflow-hidden uppercase">
+        <h2 className="inline-block text-theweb3ninja-dark w-full leading-tight text-4xl md:text-5xl font-bold mb-6 text-ellipsis overflow-hidden uppercase">
           {t('bonusResources.title')}
         </h2>
 
@@ -25,9 +25,9 @@ export const BonusResourcesSection = ({ onCTAClick }: { onCTAClick: (userType: U
 
       <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
         {/* Guide PDF */}
-        <Card className="p-8 backdrop-blur-sm border-2 border-eveo/10 shadow-xl rounded-3xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:border-eveo/20">
+        <Card className="p-8 backdrop-blur-sm border-2 border-theweb3ninja/10 shadow-xl rounded-3xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:border-theweb3ninja/20">
           <CardContent className="p-0">
-            <div className="w-20 h-20 bg-gradient-to-br from-eveo to-eveo/80 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+            <div className="w-20 h-20 bg-gradient-to-br from-theweb3ninja to-theweb3ninja/80 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg">
               <FileTextIcon className="w-10 h-10 text-white" />
             </div>
             <h3 className="text-2xl font-bold mb-4 text-center">{t('bonusResources.guide.title')}</h3>
@@ -41,9 +41,9 @@ export const BonusResourcesSection = ({ onCTAClick }: { onCTAClick: (userType: U
         </Card>
 
         {/* Excel Spreadsheet */}
-        <Card className="p-8 backdrop-blur-sm border-2 border-eveo/10 shadow-xl rounded-3xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:border-eveo/20">
+        <Card className="p-8 backdrop-blur-sm border-2 border-theweb3ninja/10 shadow-xl rounded-3xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:border-theweb3ninja/20">
           <CardContent className="p-0">
-            <div className="w-20 h-20 bg-gradient-to-br from-eveo to-eveo/80 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+            <div className="w-20 h-20 bg-gradient-to-br from-theweb3ninja to-theweb3ninja/80 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg">
               <FileIcon className="w-10 h-10 text-white" />
             </div>
             <h3 className="text-2xl font-bold mb-4 text-center">{t('bonusResources.spreadsheet.title')}</h3>
@@ -62,7 +62,7 @@ export const BonusResourcesSection = ({ onCTAClick }: { onCTAClick: (userType: U
       <div className="text-center">
         <Button
           onClick={() => onCTAClick(UserType.Organizer)}
-          className="rounded-2xl px-6 sm:px-12 text-lg bg-gradient-to-r from-eveo to-eveo/80 hover:from-eveo/90 hover:to-eveo/70 text-white font-semibold transition-all duration-300 hover:scale-105 shadow-xl hover:shadow-2xl"
+          className="rounded-2xl px-6 sm:px-12 text-lg bg-gradient-to-r from-theweb3ninja to-theweb3ninja/80 hover:from-theweb3ninja/90 hover:to-theweb3ninja/70 text-white font-semibold transition-all duration-300 hover:scale-105 shadow-xl hover:shadow-2xl"
         >
           <DownloadIcon className="w-12 h-12 mr-3" />
           {t('bonusResources.downloadButton')}

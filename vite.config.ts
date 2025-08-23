@@ -98,10 +98,8 @@ export default defineConfig(({ mode }) => {
     define: {
       'process.env.VITE_ENV': JSON.stringify(isDev ? 'development' : isStaging ? 'staging' : 'production'),
       'process.env.VITE_DEBUG': JSON.stringify(env.VITE_DEBUG),
-      'process.env.VITE_DOMAIN_EVEO_GLOBAL': JSON.stringify(env.VITE_DOMAIN_EVEO_GLOBAL),
-      'process.env.VITE_DOMAIN_EVEO_ITALY': JSON.stringify(env.VITE_DOMAIN_EVEO_ITALY),
-      'process.env.VITE_DOMAIN_EVEO_SPAIN': JSON.stringify(env.VITE_DOMAIN_EVEO_SPAIN),
-      'process.env.VITE_EVEO_FEATURES': JSON.stringify(env.VITE_EVEO_FEATURES),
+      'process.env.VITE_DOMAIN_GLOBAL': JSON.stringify(env.VITE_DOMAIN_GLOBAL),
+      'process.env.VITE_FEATURES': JSON.stringify(env.VITE_FEATURES),
       'process.env.VITE_FORCE_STRICT_MODE': JSON.stringify(env.VITE_FORCE_STRICT_MODE),
       'process.env.VITE_MEASUREMENT_ID': JSON.stringify(env.VITE_MEASUREMENT_ID),
       // Add global polyfill for packages that expect Node.js environment

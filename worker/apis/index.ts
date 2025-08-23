@@ -6,7 +6,7 @@ export async function handleApiRequest(request: Request, env: Env) {
   const pathname = url.pathname;
 
   // Special endpoint to manually purge cache
-  if (pathname === '/eveo-api/purge-cache') {
+  if (pathname === '/apis/purge-cache') {
     const response = await purgeCache(env, [env.VITE_ENV]);
 
     console.log('Manual cache purge response:', await response.clone().text());
@@ -15,7 +15,7 @@ export async function handleApiRequest(request: Request, env: Env) {
   }
 
   // Handle contact submissions
-  if (pathname === '/eveo-api/contact' && request.method === 'POST') {
+  if (pathname === '/apis/contact' && request.method === 'POST') {
     return handleContactSubmission(env, request);
   }
 

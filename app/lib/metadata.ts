@@ -3,12 +3,12 @@ import { MetaTagConfig, PageMetadata, SeoMetaOptions } from 'shared';
 import {
   companyInfo,
   contactInfo,
-  DOMAIN_EVEO_ITALY,
-  DOMAIN_EVEO_SPAIN,
+  DOMAIN_ITALY,
+  DOMAIN_SPAIN,
   supportedLanguages,
-  URL_EVEO_GLOBAL,
-  URL_EVEO_ITALY,
-  URL_EVEO_SPAIN,
+  URL_GLOBAL,
+  URL_ITALY,
+  URL_SPAIN,
 } from '../config';
 import { getDefaultLanguage, getDefaultLanguageByDomain, getLanguageConfig } from '../services';
 
@@ -107,28 +107,28 @@ const getPageMetadata = (
  */
 const getMetaCanonical = (hostname: string, language?: string, pathname?: string): MetaTagConfig => {
   // Default canonical URL
-  let canonical = `${URL_EVEO_GLOBAL}${language === getDefaultLanguageByDomain(hostname) ? pathname : `${pathname?.substring(3)}`}`;
+  let canonical = `${URL_GLOBAL}${language === getDefaultLanguageByDomain(hostname) ? pathname : `${pathname?.substring(3)}`}`;
 
   // Common alternate links for all domains
   let commonAlternates = [
-    { href: `${URL_EVEO_GLOBAL}${pathname}`, hreflang: 'en-gb' },
-    { href: `${URL_EVEO_ITALY}${pathname}`, hreflang: 'it-it' },
-    { href: `${URL_EVEO_SPAIN}${pathname}`, hreflang: 'es-es' },
-    { href: `${URL_EVEO_GLOBAL}${pathname}`, hreflang: 'x-default' },
+    { href: `${URL_GLOBAL}${pathname}`, hreflang: 'en-gb' },
+    { href: `${URL_ITALY}${pathname}`, hreflang: 'it-it' },
+    { href: `${URL_SPAIN}${pathname}`, hreflang: 'es-es' },
+    { href: `${URL_GLOBAL}${pathname}`, hreflang: 'x-default' },
   ];
 
   const otherAlternates = supportedLanguages.map(lang => ({
-    href: `${URL_EVEO_GLOBAL}/${lang}${pathname?.substring(3)}`,
+    href: `${URL_GLOBAL}/${lang}${pathname?.substring(3)}`,
     hreflang: `${lang}-${lang === 'en' ? 'gb' : lang}`,
   }));
 
   // Check for specific domains
-  if (hostname.includes(DOMAIN_EVEO_ITALY) || hostname === DOMAIN_EVEO_ITALY) {
-    canonical = `${URL_EVEO_ITALY}${language === getDefaultLanguageByDomain(hostname) ? pathname : `${pathname?.substring(3)}`}`;
-    commonAlternates = [...commonAlternates, { href: `${URL_EVEO_ITALY}${pathname}`, hreflang: 'it-it' }];
-  } else if (hostname.includes(DOMAIN_EVEO_SPAIN) || hostname === DOMAIN_EVEO_SPAIN) {
-    canonical = `${URL_EVEO_SPAIN}${language === getDefaultLanguageByDomain(hostname) ? pathname : `${pathname?.substring(3)}`}`;
-    commonAlternates = [...commonAlternates, { href: `${URL_EVEO_SPAIN}${pathname}`, hreflang: 'es-es' }];
+  if (hostname.includes(DOMAIN_ITALY) || hostname === DOMAIN_ITALY) {
+    canonical = `${URL_ITALY}${language === getDefaultLanguageByDomain(hostname) ? pathname : `${pathname?.substring(3)}`}`;
+    commonAlternates = [...commonAlternates, { href: `${URL_ITALY}${pathname}`, hreflang: 'it-it' }];
+  } else if (hostname.includes(DOMAIN_SPAIN) || hostname === DOMAIN_SPAIN) {
+    canonical = `${URL_SPAIN}${language === getDefaultLanguageByDomain(hostname) ? pathname : `${pathname?.substring(3)}`}`;
+    commonAlternates = [...commonAlternates, { href: `${URL_SPAIN}${pathname}`, hreflang: 'es-es' }];
   }
 
   return {

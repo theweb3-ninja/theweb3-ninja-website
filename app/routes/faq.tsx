@@ -6,7 +6,7 @@ export default function FAQ() {
 
   const pageMeta = {
     title: 'Frequently Asked Questions',
-    description: 'Find answers to common questions about using Eveo',
+    description: 'Find answers to common questions about using The Web3 Ninja',
   };
 
   return (

@@ -48,7 +48,7 @@ export const suspiciousPaths = [
   'well-known',
 ];
 
-export const allowedPaths = ['.well-known/security.txt', '/eveo-api/purge-cache', '/eveo-api/contact'];
+export const allowedPaths = ['.well-known/security.txt', '/apis/purge-cache', '/apis/contact'];
 
 // Common extensions for different asset types
 export const JS_EXTENSIONS = ['.js', '.mjs', '.jsx', '.json'];

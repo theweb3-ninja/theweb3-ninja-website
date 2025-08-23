@@ -28,7 +28,7 @@ export const ThemeScript = () => {
     script = `
     (function() {
       try {
-        var stored = localStorage.getItem('eveo-theme-storage');
+        var stored = localStorage.getItem('theweb3ninja-theme-storage');
         var theme = stored ? JSON.parse(stored).state.theme : 'system';
 
         var resolvedTheme = theme;

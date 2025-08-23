@@ -3,7 +3,7 @@ import { SeoMeta } from '../components';
 
 const pageMeta = {
   title: 'Contact Us',
-  description: 'Get in touch with Eveo for event organization and supplier inquiries',
+  description: 'Get in touch with The Web3 Ninja for event organization and supplier inquiries',
 };
 
 export default function Contact() {

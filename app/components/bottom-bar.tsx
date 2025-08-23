@@ -48,7 +48,7 @@ export const BottomBar = () => {
       <CookieConsent
         location="bottom"
         buttonText={t('cookieConsent.accept')}
-        cookieName="EveoGdprCookie"
+        cookieName="TheWeb3NinjaGdprCookie"
         style={{ background: '#2B373B' }}
         buttonStyle={{ color: '#4e503b', fontSize: '13px' }}
         expires={150}

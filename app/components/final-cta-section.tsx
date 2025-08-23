@@ -22,7 +22,7 @@ export const FinalCTASection = () => {
         <div className="flex justify-center">
           <Button
             onClick={handleCTAClick}
-            className="rounded-2xl px-8 py-2 text-lg bg-linear-135 from-eveo to-eveo-dark hover:from-eveo-light hover:to-eveo text-white font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+            className="rounded-2xl px-8 py-2 text-lg bg-linear-135 from-theweb3ninja to-theweb3ninja-dark hover:from-theweb3ninja-light hover:to-theweb3ninja text-white font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
           >
             <ArrowUpIcon className="w-5 h-5 mr-2" />
             {t('finalCta.cta')}
