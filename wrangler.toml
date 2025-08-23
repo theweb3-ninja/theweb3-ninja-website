@@ -6,7 +6,7 @@ account_id = "8207be57dc3a88f50bc29b302ef959ed"
 workers_dev = true
 
 kv_namespaces = [
-  { binding = "KV_THEWEB3NINJA", id = "2a95337205f84129b87971b38a098a83" }
+  { binding = "KV_THEWEB3NINJA", id = "022d0818906e4f4e9b94c83620278eac" }
 ]
 
 [assets]
@@ -31,7 +31,7 @@ routes = [
     { pattern = "*staging-theweb3-ninja.ness0.workers.dev/*", zone_name = "ness0.workers.dev" },
 ]
 kv_namespaces = [
-  { binding = "KV_THEWEB3NINJA", id = "2a95337205f84129b87971b38a098a83" }
+  { binding = "KV_THEWEB3NINJA", id = "022d0818906e4f4e9b94c83620278eac" }
 ]
 
 [env.staging.vars]
@@ -49,7 +49,7 @@ routes = [
     { pattern = "theweb3.ninja/*", zone_name = "theweb3.ninja" },
 ]
 kv_namespaces = [
-  { binding = "KV_THEWEB3NINJA", id = "2a95337205f84129b87971b38a098a83" }
+  { binding = "KV_THEWEB3NINJA", id = "022d0818906e4f4e9b94c83620278eac" }
 ]
 
 [env.production.vars]
