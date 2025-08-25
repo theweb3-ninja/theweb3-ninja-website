@@ -5,7 +5,7 @@ export const FAQSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="faq" className="container mx-auto px-6 py-8 md:py-20 bg-white/30 backdrop-blur-sm">
+    <section id="faq" className="container mx-auto px-6 py-8 md:py-20">
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent uppercase">
           {t('faq.title')}
